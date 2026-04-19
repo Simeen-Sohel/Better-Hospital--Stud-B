@@ -1,0 +1,14 @@
+﻿WARD_RowID,WARD_Code,WARD_Desc
+4,SSU,Short Stay Unit
+5,DSA,Day Surgery Area
+6,DIA,Dialysis Ward
+7,W4,W4 - Rehabilitation / PalliCare Ward
+8,ICU,Intensive Care Unit
+9,W1,W1 - Maternity Ward
+10,W2,W2 - Medical / Surgical / Paediatrics Ward
+11,W3,W3 - Medical / Surgical Ward
+12,W5,W5 - Mental Health Ward
+13,ONC,Oncology Ward
+15,SCN,Special Care Nursery
+16,ED,Emergency Department
+29,BS,Birth Suite

@@ -1,0 +1,153 @@
+﻿ROOM_RowID,ROOM_Desc
+1,Maternity Room 1
+2,Maternity Room 2
+3,Maternity Room 3
+4,Maternity Room 4
+5,Maternity Room 5
+6,Maternity Room 6
+7,Maternity Room 7
+8,Maternity Room 8
+9,Waiting Area ED
+10,SCN
+11,Exam Room
+12,Birth Suite 1
+13,Birth Suite 2
+14,Birth Suite 3
+15,Birth Suite 4
+16,Room 1
+17,Room 2
+18,Room 2 M
+19,Room 3 M
+20,Room 3
+21,Room 4
+22,Room 5
+23,Room 5 M
+24,Room 6
+25,Room 6 M
+26,Room 7 M
+27,Room 7
+28,Room 8
+29,Room 8 M
+30,Room 9
+31,Room 9 M
+32,Room 10 M
+33,Room 11
+34,Room 11 M
+35,Room 12
+36,Room 12 M
+37,Room 13 M
+38,Room 14
+39,Room 15
+40,Room 16 M
+41,Room 17 M
+42,Room 18 M
+43,Room 19 M
+44,Room 20 M
+45,Room 21 M
+46,Room 22
+47,Room 23 M
+48,Room 24 M
+49,Room 25
+50,High Dependancy Unit
+51,Seclusion 1
+52,Seclusion 2
+53,Oncology
+54,Isolation Room
+55,Dialysis
+56,ICU Room 1
+57,ICU Room 2
+58,ICU Room 3
+59,ICU Room 4
+60,ICU Room 5
+61,Nursing Station
+62,RESUS 1
+63,RESUS 2
+64,Procedure Room
+65,Plaster Room
+66,Consult Room 1
+67,Triage 1
+68,Triage 2
+69,Short Stay Unit 1
+70,Short Stay Unit 2
+71,Short Stay Unit 3
+72,Short Stay Unit 4
+73,Short Stay Unit 5
+74,Short Stay Unit 6
+75,ED Cubicle 3
+76,ED Cubicle 4
+77,ED Cubicle 5
+78,ED Cubicle 6
+79,ED Cubicle 7
+80,ED Cubicle 8
+81,ED Cubicle 9
+82,ED Cubicle 10
+83,ED Cubicle 11
+84,ED Cubicle 12
+85,Fast Track 1
+86,Fast Track 2
+87,Fast Track 3
+88,Doctors Discharge Lounge
+89,Prep Room
+90,Anaesthetic Prep Room
+91,PAC Unit
+92,Over Flow
+93,DSA Recovery
+94,Patient Lounge
+95,Outpatient Waiting Room
+96,Waiting Room Operating Suite
+98,Cot Rm 1
+99,Cot Rm 2 A
+100,Cot Rm 2 B
+101,Cot Rm 3
+102,Cot Rm 4
+103,Cot Rm 5
+104,Cot Rm 6 A
+105,Cot Rm 6 B
+106,Cot Rm 7 A
+107,Cot Rm 7 B
+108,Cot Rm 8 A
+109,Cot Rm 8 B
+110,HITH
+111,ICU Room 7
+112,ICU Room 8
+113,ICU Room 6
+114,Short Stay Unit 8
+115,Intensive Care Area 2
+116,Short Stay Unit 7
+117,Intensive Care Area 1
+118,Chair 4
+119,Chair 5
+120,Chair 6
+121,Chair 3
+122,Chair 1
+123,Chair 2
+124,ED OVERFLOW: COVID-19 CLINIC
+125,Cot Rm 24 C
+126,Cot Rm 24 D
+127,Cot Rm 24 B
+128,Cot Rm 25
+129,Cot Rm 24 A
+130,Cot Birth Suite 2
+131,Cot Birth Suite 1
+132,Cot Birth Suite 3
+133,Cot Exam Room
+134,Cot RM01
+135,Cot RM02C
+136,Cot RM02D
+137,Cot RM02B
+138,Cot RM02A
+139,ED Seen Awaiting Test Results - Waiting Area
+140,Room 15 M
+141,Room 4 M
+142,Room 10
+143,Room 14 M
+144,GEM
+145,NMHC1
+146,NMHC2
+147,NMHC3
+148,NMHC4
+149,NMHC5
+150,NMHC
+151,Admitted in Waiting Area - No Bed Available
+152,Room 1 M
+153,Room 13

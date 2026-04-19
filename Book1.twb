@@ -1,0 +1,1413 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='PA_Adm' inline='true' name='federated.00g7cbz11ce49e19706xm1isuf6m' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='PA_Adm' name='textscan.1qomc5i04deu6x1euc7du0jw49pl'>
+            <connection class='textscan' directory='/Users/simeensohel/Desktop/Hospital Viz' filename='PA_Adm.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='PA_AdmTransaction' name='textscan.10s4hjf0jlrx691aqt7vy17r5wgx'>
+            <connection class='textscan' directory='/Users/simeensohel/Desktop/Hospital Viz' filename='PA_AdmTransaction.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='PAC_Ward' name='textscan.15pyxgd17g6kij18502m3167upme'>
+            <connection class='textscan' directory='/Users/simeensohel/Desktop/Hospital Viz' filename='PAC_Ward.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='PAC_TransType' name='textscan.11cxhu91462mxq1g0jxw70xocyo6'>
+            <connection class='textscan' directory='/Users/simeensohel/Desktop/Hospital Viz' filename='PAC_TransType.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='PAC_Room' name='textscan.1tugogc0f407iu13s2efs1f7glr6'>
+            <connection class='textscan' directory='/Users/simeensohel/Desktop/Hospital Viz' filename='PAC_Room.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='PAC_BedType' name='textscan.0qchsr01ldvrem14bww7y0y0yzyp'>
+            <connection class='textscan' directory='/Users/simeensohel/Desktop/Hospital Viz' filename='PAC_BedType.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='PAC_Bed' name='textscan.1n170la1w7lhf81arkyba11ohf49'>
+            <connection class='textscan' directory='/Users/simeensohel/Desktop/Hospital Viz' filename='PAC_Bed.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation join='left' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[PAC_Bed.csv1].[BED_BedType_DR]' />
+              <expression op='[PAC_BedType.csv1].[BEDTP_RowId]' />
+            </expression>
+          </clause>
+          <relation join='left' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[PA_AdmTransaction.csv1].[TRANS_Status_DR]' />
+                <expression op='[PAC_TransfRequestStatus.csv1].[REQST_RowId]' />
+              </expression>
+            </clause>
+            <relation join='left' type='join'>
+              <clause type='join'>
+                <expression op='='>
+                  <expression op='[PA_AdmTransaction.csv1].[TRANS_TransType_DR]' />
+                  <expression op='[PAC_TransType.csv1].[TRANSTYP_RowId]' />
+                </expression>
+              </clause>
+              <relation join='left' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[PA_AdmTransaction.csv1].[TRANS_Room_DR]' />
+                    <expression op='[PAC_Room.csv1].[ROOM_RowID]' />
+                  </expression>
+                </clause>
+                <relation join='left' type='join'>
+                  <clause type='join'>
+                    <expression op='='>
+                      <expression op='[PA_AdmTransaction.csv1].[TRANS_Ward_DR]' />
+                      <expression op='[PAC_Ward.csv1].[WARD_RowID]' />
+                    </expression>
+                  </clause>
+                  <relation join='left' type='join'>
+                    <clause type='join'>
+                      <expression op='='>
+                        <expression op='[PA_AdmTransaction.csv1].[TRANS_Bed_DR]' />
+                        <expression op='[PAC_Bed.csv1].[BED_RowID]' />
+                      </expression>
+                    </clause>
+                    <relation join='left' type='join'>
+                      <clause type='join'>
+                        <expression op='='>
+                          <expression op='[PA_Adm.csv].[PAADM_RowID]' />
+                          <expression op='[PA_AdmTransaction.csv1].[TRANS_ParRef]' />
+                        </expression>
+                      </clause>
+                      <relation connection='textscan.1qomc5i04deu6x1euc7du0jw49pl' name='PA_Adm.csv' table='[PA_Adm#csv]' type='table'>
+                        <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                          <column datatype='string' name='PAADM_RowID' ordinal='0' />
+                          <column datatype='string' name='PAADM_Type' ordinal='1' />
+                        </columns>
+                      </relation>
+                      <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PA_AdmTransaction.csv1' table='[PA_AdmTransaction#csv]' type='table'>
+                        <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                          <column datatype='date' name='TRANS_StartDate' ordinal='0' />
+                          <column datatype='datetime' name='TRANS_StartTime' ordinal='1' />
+                          <column datatype='date' name='TRANS_EndDate' ordinal='2' />
+                          <column datatype='datetime' name='TRANS_EndTime' ordinal='3' />
+                          <column datatype='string' name='TRANS_ParRef' ordinal='4' />
+                          <column datatype='string' name='TRANS_Bed_DR' ordinal='5' />
+                          <column datatype='integer' name='TRANS_Room_DR' ordinal='6' />
+                          <column datatype='integer' name='TRANS_Ward_DR' ordinal='7' />
+                          <column datatype='integer' name='TRANS_TransType_DR' ordinal='8' />
+                          <column datatype='integer' name='TRANS_Status_DR' ordinal='9' />
+                        </columns>
+                      </relation>
+                    </relation>
+                    <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_Bed.csv1' table='[PAC_Bed#csv]' type='table'>
+                      <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                        <column datatype='integer' name='BED_WARD_ParRef' ordinal='0' />
+                        <column datatype='string' name='BED_RowID' ordinal='1' />
+                        <column datatype='integer' name='BED_Room_DR' ordinal='2' />
+                        <column datatype='string' name='BED_Code' ordinal='3' />
+                        <column datatype='integer' name='BED_BedType_DR' ordinal='4' />
+                        <column datatype='string' name='BED_Available' ordinal='5' />
+                      </columns>
+                    </relation>
+                  </relation>
+                  <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_Ward.csv1' table='[PAC_Ward#csv]' type='table'>
+                    <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                      <column datatype='integer' name='WARD_RowID' ordinal='0' />
+                      <column datatype='string' name='WARD_Code' ordinal='1' />
+                      <column datatype='string' name='WARD_Desc' ordinal='2' />
+                    </columns>
+                  </relation>
+                </relation>
+                <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_Room.csv1' table='[PAC_Room#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                    <column datatype='integer' name='ROOM_RowID' ordinal='0' />
+                    <column datatype='string' name='ROOM_Desc' ordinal='1' />
+                  </columns>
+                </relation>
+              </relation>
+              <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_TransType.csv1' table='[PAC_TransType#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                  <column datatype='integer' name='TRANSTYP_RowId' ordinal='0' />
+                  <column datatype='string' name='TRANSTYP_Desc' ordinal='1' />
+                </columns>
+              </relation>
+            </relation>
+            <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_TransfRequestStatus.csv1' table='[PAC_TransfRequestStatus#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                <column datatype='integer' name='REQST_RowId' ordinal='0' />
+                <column datatype='string' name='REQST_Desc' ordinal='1' />
+              </columns>
+            </relation>
+          </relation>
+          <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_BedType.csv1' table='[PAC_BedType#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+              <column datatype='integer' name='BEDTP_RowId' ordinal='0' />
+              <column datatype='string' name='BEDTP_Desc' ordinal='1' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[BEDTP_Desc (PAC_BedType.csv1)]' value='[PAC_BedType.csv1].[BEDTP_Desc]' />
+          <map key='[BEDTP_RowId (PAC_BedType.csv1)]' value='[PAC_BedType.csv1].[BEDTP_RowId]' />
+          <map key='[BED_Available (PAC_Bed.csv1)]' value='[PAC_Bed.csv1].[BED_Available]' />
+          <map key='[BED_BedType_DR (PAC_Bed.csv1)]' value='[PAC_Bed.csv1].[BED_BedType_DR]' />
+          <map key='[BED_Code (PAC_Bed.csv1)]' value='[PAC_Bed.csv1].[BED_Code]' />
+          <map key='[BED_Room_DR (PAC_Bed.csv1)]' value='[PAC_Bed.csv1].[BED_Room_DR]' />
+          <map key='[BED_RowID (PAC_Bed.csv1)]' value='[PAC_Bed.csv1].[BED_RowID]' />
+          <map key='[BED_WARD_ParRef (PAC_Bed.csv1)]' value='[PAC_Bed.csv1].[BED_WARD_ParRef]' />
+          <map key='[PAADM_RowID]' value='[PA_Adm.csv].[PAADM_RowID]' />
+          <map key='[PAADM_Type]' value='[PA_Adm.csv].[PAADM_Type]' />
+          <map key='[REQST_Desc (PAC_TransfRequestStatus.csv1)]' value='[PAC_TransfRequestStatus.csv1].[REQST_Desc]' />
+          <map key='[REQST_RowId (PAC_TransfRequestStatus.csv1)]' value='[PAC_TransfRequestStatus.csv1].[REQST_RowId]' />
+          <map key='[ROOM_Desc (PAC_Room.csv1)]' value='[PAC_Room.csv1].[ROOM_Desc]' />
+          <map key='[ROOM_RowID (PAC_Room.csv1)]' value='[PAC_Room.csv1].[ROOM_RowID]' />
+          <map key='[TRANSTYP_Desc (PAC_TransType.csv1)]' value='[PAC_TransType.csv1].[TRANSTYP_Desc]' />
+          <map key='[TRANSTYP_RowId (PAC_TransType.csv1)]' value='[PAC_TransType.csv1].[TRANSTYP_RowId]' />
+          <map key='[TRANS_Bed_DR (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_Bed_DR]' />
+          <map key='[TRANS_EndDate (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_EndDate]' />
+          <map key='[TRANS_EndTime (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_EndTime]' />
+          <map key='[TRANS_ParRef (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_ParRef]' />
+          <map key='[TRANS_Room_DR (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_Room_DR]' />
+          <map key='[TRANS_StartDate (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_StartDate]' />
+          <map key='[TRANS_StartTime (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_StartTime]' />
+          <map key='[TRANS_Status_DR (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_Status_DR]' />
+          <map key='[TRANS_TransType_DR (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_TransType_DR]' />
+          <map key='[TRANS_Ward_DR (PA_AdmTransaction.csv1)]' value='[PA_AdmTransaction.csv1].[TRANS_Ward_DR]' />
+          <map key='[WARD_Code (PAC_Ward.csv1)]' value='[PAC_Ward.csv1].[WARD_Code]' />
+          <map key='[WARD_Desc (PAC_Ward.csv1)]' value='[PAC_Ward.csv1].[WARD_Desc]' />
+          <map key='[WARD_RowID (PAC_Ward.csv1)]' value='[PAC_Ward.csv1].[WARD_RowID]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PA_Adm.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_AU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_AU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PAC_Bed.csv1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_AU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PAC_Ward.csv1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_AU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PAC_Room.csv1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_AU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PAC_TransType.csv1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_AU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PAC_TransfRequestStatus.csv1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_AU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[PAC_BedType.csv1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_AU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PAADM_RowID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PAADM_RowID]</local-name>
+            <parent-name>[PA_Adm.csv]</parent-name>
+            <remote-alias>PAADM_RowID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PAADM_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PAADM_Type]</local-name>
+            <parent-name>[PA_Adm.csv]</parent-name>
+            <remote-alias>PAADM_Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_StartDate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[TRANS_StartDate (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_StartDate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_StartTime</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[TRANS_StartTime (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_StartTime</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_EndDate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[TRANS_EndDate (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_EndDate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_EndTime</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[TRANS_EndTime (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_EndTime</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_ParRef</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TRANS_ParRef (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_ParRef</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_Bed_DR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TRANS_Bed_DR (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_Bed_DR</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_Room_DR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TRANS_Room_DR (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_Room_DR</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_Ward_DR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TRANS_Ward_DR (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_Ward_DR</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_TransType_DR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TRANS_TransType_DR (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_TransType_DR</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANS_Status_DR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TRANS_Status_DR (PA_AdmTransaction.csv1)]</local-name>
+            <parent-name>[PA_AdmTransaction.csv1]</parent-name>
+            <remote-alias>TRANS_Status_DR</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BED_WARD_ParRef</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BED_WARD_ParRef (PAC_Bed.csv1)]</local-name>
+            <parent-name>[PAC_Bed.csv1]</parent-name>
+            <remote-alias>BED_WARD_ParRef</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BED_RowID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BED_RowID (PAC_Bed.csv1)]</local-name>
+            <parent-name>[PAC_Bed.csv1]</parent-name>
+            <remote-alias>BED_RowID</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BED_Room_DR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BED_Room_DR (PAC_Bed.csv1)]</local-name>
+            <parent-name>[PAC_Bed.csv1]</parent-name>
+            <remote-alias>BED_Room_DR</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BED_Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BED_Code (PAC_Bed.csv1)]</local-name>
+            <parent-name>[PAC_Bed.csv1]</parent-name>
+            <remote-alias>BED_Code</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BED_BedType_DR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BED_BedType_DR (PAC_Bed.csv1)]</local-name>
+            <parent-name>[PAC_Bed.csv1]</parent-name>
+            <remote-alias>BED_BedType_DR</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BED_Available</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BED_Available (PAC_Bed.csv1)]</local-name>
+            <parent-name>[PAC_Bed.csv1]</parent-name>
+            <remote-alias>BED_Available</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WARD_RowID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WARD_RowID (PAC_Ward.csv1)]</local-name>
+            <parent-name>[PAC_Ward.csv1]</parent-name>
+            <remote-alias>WARD_RowID</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WARD_Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WARD_Code (PAC_Ward.csv1)]</local-name>
+            <parent-name>[PAC_Ward.csv1]</parent-name>
+            <remote-alias>WARD_Code</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WARD_Desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WARD_Desc (PAC_Ward.csv1)]</local-name>
+            <parent-name>[PAC_Ward.csv1]</parent-name>
+            <remote-alias>WARD_Desc</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROOM_RowID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ROOM_RowID (PAC_Room.csv1)]</local-name>
+            <parent-name>[PAC_Room.csv1]</parent-name>
+            <remote-alias>ROOM_RowID</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROOM_Desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ROOM_Desc (PAC_Room.csv1)]</local-name>
+            <parent-name>[PAC_Room.csv1]</parent-name>
+            <remote-alias>ROOM_Desc</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANSTYP_RowId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TRANSTYP_RowId (PAC_TransType.csv1)]</local-name>
+            <parent-name>[PAC_TransType.csv1]</parent-name>
+            <remote-alias>TRANSTYP_RowId</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANSTYP_Desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TRANSTYP_Desc (PAC_TransType.csv1)]</local-name>
+            <parent-name>[PAC_TransType.csv1]</parent-name>
+            <remote-alias>TRANSTYP_Desc</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REQST_RowId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[REQST_RowId (PAC_TransfRequestStatus.csv1)]</local-name>
+            <parent-name>[PAC_TransfRequestStatus.csv1]</parent-name>
+            <remote-alias>REQST_RowId</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REQST_Desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REQST_Desc (PAC_TransfRequestStatus.csv1)]</local-name>
+            <parent-name>[PAC_TransfRequestStatus.csv1]</parent-name>
+            <remote-alias>REQST_Desc</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BEDTP_RowId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BEDTP_RowId (PAC_BedType.csv1)]</local-name>
+            <parent-name>[PAC_BedType.csv1]</parent-name>
+            <remote-alias>BEDTP_RowId</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BEDTP_Desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BEDTP_Desc (PAC_BedType.csv1)]</local-name>
+            <parent-name>[PAC_BedType.csv1]</parent-name>
+            <remote-alias>BEDTP_Desc</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='BEDTP Desc (PAC BedType.csv1)' datatype='string' name='[BEDTP_Desc (PAC_BedType.csv1)]' role='dimension' type='nominal' />
+      <column caption='BEDTP RowId (PAC BedType.csv1)' datatype='integer' name='[BEDTP_RowId (PAC_BedType.csv1)]' role='dimension' type='ordinal' />
+      <column caption='BED Available (PAC Bed.csv1)' datatype='string' name='[BED_Available (PAC_Bed.csv1)]' role='dimension' type='nominal' />
+      <column caption='BED BedType DR (PAC Bed.csv1)' datatype='integer' name='[BED_BedType_DR (PAC_Bed.csv1)]' role='measure' type='quantitative' />
+      <column caption='BED Code (PAC Bed.csv1)' datatype='string' name='[BED_Code (PAC_Bed.csv1)]' role='dimension' type='nominal' />
+      <column caption='BED Room DR (PAC Bed.csv1)' datatype='integer' name='[BED_Room_DR (PAC_Bed.csv1)]' role='measure' type='quantitative' />
+      <column caption='BED RowID (PAC Bed.csv1)' datatype='string' name='[BED_RowID (PAC_Bed.csv1)]' role='dimension' type='nominal' />
+      <column caption='BED WARD ParRef (PAC Bed.csv1)' datatype='integer' name='[BED_WARD_ParRef (PAC_Bed.csv1)]' role='measure' type='quantitative' />
+      <column caption='PAADM RowID' datatype='string' name='[PAADM_RowID]' role='dimension' type='nominal' />
+      <column caption='PAADM Type' datatype='string' name='[PAADM_Type]' role='dimension' type='nominal' />
+      <column caption='REQST Desc (PAC TransfRequestStatus.csv1)' datatype='string' name='[REQST_Desc (PAC_TransfRequestStatus.csv1)]' role='dimension' type='nominal' />
+      <column caption='REQST RowId (PAC TransfRequestStatus.csv1)' datatype='integer' name='[REQST_RowId (PAC_TransfRequestStatus.csv1)]' role='dimension' type='ordinal' />
+      <column caption='ROOM Desc (PAC Room.csv1)' datatype='string' name='[ROOM_Desc (PAC_Room.csv1)]' role='dimension' type='nominal' />
+      <column caption='ROOM RowID (PAC Room.csv1)' datatype='integer' name='[ROOM_RowID (PAC_Room.csv1)]' role='dimension' type='ordinal' />
+      <column caption='TRANSTYP Desc (PAC TransType.csv1)' datatype='string' name='[TRANSTYP_Desc (PAC_TransType.csv1)]' role='dimension' type='nominal' />
+      <column caption='TRANSTYP RowId (PAC TransType.csv1)' datatype='integer' name='[TRANSTYP_RowId (PAC_TransType.csv1)]' role='dimension' type='ordinal' />
+      <column caption='TRANS Bed DR (PA AdmTransaction.csv1)' datatype='string' name='[TRANS_Bed_DR (PA_AdmTransaction.csv1)]' role='dimension' type='nominal' />
+      <column caption='TRANS EndDate (PA AdmTransaction.csv1)' datatype='date' name='[TRANS_EndDate (PA_AdmTransaction.csv1)]' role='dimension' type='ordinal' />
+      <column aggregation='Hour' caption='TRANS EndTime (PA AdmTransaction.csv1)' datatype='datetime' name='[TRANS_EndTime (PA_AdmTransaction.csv1)]' role='dimension' type='ordinal' />
+      <column caption='TRANS ParRef (PA AdmTransaction.csv1)' datatype='string' name='[TRANS_ParRef (PA_AdmTransaction.csv1)]' role='dimension' type='nominal' />
+      <column caption='TRANS Room DR (PA AdmTransaction.csv1)' datatype='integer' name='[TRANS_Room_DR (PA_AdmTransaction.csv1)]' role='measure' type='quantitative' />
+      <column caption='TRANS StartDate (PA AdmTransaction.csv1)' datatype='date' name='[TRANS_StartDate (PA_AdmTransaction.csv1)]' role='dimension' type='ordinal' />
+      <column aggregation='Hour' caption='TRANS StartTime (PA AdmTransaction.csv1)' datatype='datetime' name='[TRANS_StartTime (PA_AdmTransaction.csv1)]' role='dimension' type='ordinal' />
+      <column caption='TRANS Status DR (PA AdmTransaction.csv1)' datatype='integer' name='[TRANS_Status_DR (PA_AdmTransaction.csv1)]' role='measure' type='quantitative' />
+      <column caption='TRANS TransType DR (PA AdmTransaction.csv1)' datatype='integer' name='[TRANS_TransType_DR (PA_AdmTransaction.csv1)]' role='measure' type='quantitative' />
+      <column caption='TRANS Ward DR (PA AdmTransaction.csv1)' datatype='integer' name='[TRANS_Ward_DR (PA_AdmTransaction.csv1)]' role='measure' type='quantitative' />
+      <column caption='WARD Code (PAC Ward.csv1)' datatype='string' name='[WARD_Code (PAC_Ward.csv1)]' role='dimension' type='nominal' />
+      <column caption='WARD Desc (PAC Ward.csv1)' datatype='string' name='[WARD_Desc (PAC_Ward.csv1)]' role='dimension' type='nominal' />
+      <column caption='WARD RowID (PAC Ward.csv1)' datatype='integer' name='[WARD_RowID (PAC_Ward.csv1)]' role='dimension' type='ordinal' />
+      <column caption='PA_Adm.csv' datatype='table' name='[__tableau_internal_object_id__].[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/kh/65w85q5s7gv2st_c0_12jkvw0000gn/T/tableau-temp/#TableauTemp_049jygq0wjduqy1dpjfio1najl4s.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/19/2026 03:10:48 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <cols>
+            <map key='[BEDTP_Desc (PAC_BedType.csv1)]' value='[Extract].[BEDTP_Desc]' />
+            <map key='[BEDTP_RowId (PAC_BedType.csv1)]' value='[Extract].[BEDTP_RowId]' />
+            <map key='[BED_Available (PAC_Bed.csv1)]' value='[Extract].[BED_Available]' />
+            <map key='[BED_BedType_DR (PAC_Bed.csv1)]' value='[Extract].[BED_BedType_DR]' />
+            <map key='[BED_Code (PAC_Bed.csv1)]' value='[Extract].[BED_Code]' />
+            <map key='[BED_Room_DR (PAC_Bed.csv1)]' value='[Extract].[BED_Room_DR]' />
+            <map key='[BED_RowID (PAC_Bed.csv1)]' value='[Extract].[BED_RowID]' />
+            <map key='[BED_WARD_ParRef (PAC_Bed.csv1)]' value='[Extract].[BED_WARD_ParRef]' />
+            <map key='[PAADM_RowID]' value='[Extract].[PAADM_RowID]' />
+            <map key='[PAADM_Type]' value='[Extract].[PAADM_Type]' />
+            <map key='[REQST_Desc (PAC_TransfRequestStatus.csv1)]' value='[Extract].[REQST_Desc]' />
+            <map key='[REQST_RowId (PAC_TransfRequestStatus.csv1)]' value='[Extract].[REQST_RowId]' />
+            <map key='[ROOM_Desc (PAC_Room.csv1)]' value='[Extract].[ROOM_Desc]' />
+            <map key='[ROOM_RowID (PAC_Room.csv1)]' value='[Extract].[ROOM_RowID]' />
+            <map key='[TRANSTYP_Desc (PAC_TransType.csv1)]' value='[Extract].[TRANSTYP_Desc]' />
+            <map key='[TRANSTYP_RowId (PAC_TransType.csv1)]' value='[Extract].[TRANSTYP_RowId]' />
+            <map key='[TRANS_Bed_DR (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_Bed_DR]' />
+            <map key='[TRANS_EndDate (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_EndDate]' />
+            <map key='[TRANS_EndTime (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_EndTime]' />
+            <map key='[TRANS_ParRef (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_ParRef]' />
+            <map key='[TRANS_Room_DR (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_Room_DR]' />
+            <map key='[TRANS_StartDate (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_StartDate]' />
+            <map key='[TRANS_StartTime (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_StartTime]' />
+            <map key='[TRANS_Status_DR (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_Status_DR]' />
+            <map key='[TRANS_TransType_DR (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_TransType_DR]' />
+            <map key='[TRANS_Ward_DR (PA_AdmTransaction.csv1)]' value='[Extract].[TRANS_Ward_DR]' />
+            <map key='[WARD_Code (PAC_Ward.csv1)]' value='[Extract].[WARD_Code]' />
+            <map key='[WARD_Desc (PAC_Ward.csv1)]' value='[Extract].[WARD_Desc]' />
+            <map key='[WARD_RowID (PAC_Ward.csv1)]' value='[Extract].[WARD_RowID]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>PAADM_RowID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PAADM_RowID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PAADM_RowID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>PA_Adm.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>362</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PAADM_Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PAADM_Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PAADM_Type</remote-alias>
+              <ordinal>1</ordinal>
+              <family>PA_Adm.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_StartDate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[TRANS_StartDate (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_StartDate</remote-alias>
+              <ordinal>2</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>73</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_StartTime</remote-name>
+              <remote-type>134</remote-type>
+              <local-name>[TRANS_StartTime (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_StartTime</remote-alias>
+              <ordinal>3</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>datetime</local-type>
+              <aggregation>Hour</aggregation>
+              <approx-count>589</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_EndDate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[TRANS_EndDate (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_EndDate</remote-alias>
+              <ordinal>4</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>115</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_EndTime</remote-name>
+              <remote-type>134</remote-type>
+              <local-name>[TRANS_EndTime (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_EndTime</remote-alias>
+              <ordinal>5</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>datetime</local-type>
+              <aggregation>Hour</aggregation>
+              <approx-count>608</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_ParRef</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TRANS_ParRef (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_ParRef</remote-alias>
+              <ordinal>6</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>362</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_Bed_DR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TRANS_Bed_DR (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_Bed_DR</remote-alias>
+              <ordinal>7</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>178</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_Room_DR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TRANS_Room_DR (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_Room_DR</remote-alias>
+              <ordinal>8</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>81</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_Ward_DR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TRANS_Ward_DR (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_Ward_DR</remote-alias>
+              <ordinal>9</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_TransType_DR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TRANS_TransType_DR (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_TransType_DR</remote-alias>
+              <ordinal>10</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANS_Status_DR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TRANS_Status_DR (PA_AdmTransaction.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANS_Status_DR</remote-alias>
+              <ordinal>11</ordinal>
+              <family>PA_AdmTransaction.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BED_WARD_ParRef</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[BED_WARD_ParRef (PAC_Bed.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BED_WARD_ParRef</remote-alias>
+              <ordinal>12</ordinal>
+              <family>PAC_Bed.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BED_RowID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[BED_RowID (PAC_Bed.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BED_RowID</remote-alias>
+              <ordinal>13</ordinal>
+              <family>PAC_Bed.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>113</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BED_Room_DR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[BED_Room_DR (PAC_Bed.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BED_Room_DR</remote-alias>
+              <ordinal>14</ordinal>
+              <family>PAC_Bed.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BED_Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[BED_Code (PAC_Bed.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BED_Code</remote-alias>
+              <ordinal>15</ordinal>
+              <family>PAC_Bed.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>86</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BED_BedType_DR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[BED_BedType_DR (PAC_Bed.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BED_BedType_DR</remote-alias>
+              <ordinal>16</ordinal>
+              <family>PAC_Bed.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BED_Available</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[BED_Available (PAC_Bed.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BED_Available</remote-alias>
+              <ordinal>17</ordinal>
+              <family>PAC_Bed.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WARD_RowID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[WARD_RowID (PAC_Ward.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WARD_RowID</remote-alias>
+              <ordinal>18</ordinal>
+              <family>PAC_Ward.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WARD_Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WARD_Code (PAC_Ward.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WARD_Code</remote-alias>
+              <ordinal>19</ordinal>
+              <family>PAC_Ward.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WARD_Desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WARD_Desc (PAC_Ward.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WARD_Desc</remote-alias>
+              <ordinal>20</ordinal>
+              <family>PAC_Ward.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ROOM_RowID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ROOM_RowID (PAC_Room.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ROOM_RowID</remote-alias>
+              <ordinal>21</ordinal>
+              <family>PAC_Room.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>81</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ROOM_Desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ROOM_Desc (PAC_Room.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ROOM_Desc</remote-alias>
+              <ordinal>22</ordinal>
+              <family>PAC_Room.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>81</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANSTYP_RowId</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TRANSTYP_RowId (PAC_TransType.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANSTYP_RowId</remote-alias>
+              <ordinal>23</ordinal>
+              <family>PAC_TransType.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANSTYP_Desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TRANSTYP_Desc (PAC_TransType.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANSTYP_Desc</remote-alias>
+              <ordinal>24</ordinal>
+              <family>PAC_TransType.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>REQST_RowId</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[REQST_RowId (PAC_TransfRequestStatus.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>REQST_RowId</remote-alias>
+              <ordinal>25</ordinal>
+              <family>PAC_TransfRequestStatus.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>REQST_Desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[REQST_Desc (PAC_TransfRequestStatus.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>REQST_Desc</remote-alias>
+              <ordinal>26</ordinal>
+              <family>PAC_TransfRequestStatus.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BEDTP_RowId</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[BEDTP_RowId (PAC_BedType.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BEDTP_RowId</remote-alias>
+              <ordinal>27</ordinal>
+              <family>PAC_BedType.csv1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BEDTP_Desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[BEDTP_Desc (PAC_BedType.csv1)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BEDTP_Desc</remote-alias>
+              <ordinal>28</ordinal>
+              <family>PAC_BedType.csv1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Australia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='PA_Adm.csv' id='PA_Adm.csv_A53BF849CCEF422D9F03766BE2668DDC'>
+            <properties context=''>
+              <relation join='left' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[PAC_Bed.csv1].[BED_BedType_DR]' />
+                    <expression op='[PAC_BedType.csv1].[BEDTP_RowId]' />
+                  </expression>
+                </clause>
+                <relation join='left' type='join'>
+                  <clause type='join'>
+                    <expression op='='>
+                      <expression op='[PA_AdmTransaction.csv1].[TRANS_Status_DR]' />
+                      <expression op='[PAC_TransfRequestStatus.csv1].[REQST_RowId]' />
+                    </expression>
+                  </clause>
+                  <relation join='left' type='join'>
+                    <clause type='join'>
+                      <expression op='='>
+                        <expression op='[PA_AdmTransaction.csv1].[TRANS_TransType_DR]' />
+                        <expression op='[PAC_TransType.csv1].[TRANSTYP_RowId]' />
+                      </expression>
+                    </clause>
+                    <relation join='left' type='join'>
+                      <clause type='join'>
+                        <expression op='='>
+                          <expression op='[PA_AdmTransaction.csv1].[TRANS_Room_DR]' />
+                          <expression op='[PAC_Room.csv1].[ROOM_RowID]' />
+                        </expression>
+                      </clause>
+                      <relation join='left' type='join'>
+                        <clause type='join'>
+                          <expression op='='>
+                            <expression op='[PA_AdmTransaction.csv1].[TRANS_Ward_DR]' />
+                            <expression op='[PAC_Ward.csv1].[WARD_RowID]' />
+                          </expression>
+                        </clause>
+                        <relation join='left' type='join'>
+                          <clause type='join'>
+                            <expression op='='>
+                              <expression op='[PA_AdmTransaction.csv1].[TRANS_Bed_DR]' />
+                              <expression op='[PAC_Bed.csv1].[BED_RowID]' />
+                            </expression>
+                          </clause>
+                          <relation join='left' type='join'>
+                            <clause type='join'>
+                              <expression op='='>
+                                <expression op='[PA_Adm.csv].[PAADM_RowID]' />
+                                <expression op='[PA_AdmTransaction.csv1].[TRANS_ParRef]' />
+                              </expression>
+                            </clause>
+                            <relation connection='textscan.1qomc5i04deu6x1euc7du0jw49pl' name='PA_Adm.csv' table='[PA_Adm#csv]' type='table'>
+                              <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                                <column datatype='string' name='PAADM_RowID' ordinal='0' />
+                                <column datatype='string' name='PAADM_Type' ordinal='1' />
+                              </columns>
+                            </relation>
+                            <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PA_AdmTransaction.csv1' table='[PA_AdmTransaction#csv]' type='table'>
+                              <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                                <column datatype='date' name='TRANS_StartDate' ordinal='0' />
+                                <column datatype='datetime' name='TRANS_StartTime' ordinal='1' />
+                                <column datatype='date' name='TRANS_EndDate' ordinal='2' />
+                                <column datatype='datetime' name='TRANS_EndTime' ordinal='3' />
+                                <column datatype='string' name='TRANS_ParRef' ordinal='4' />
+                                <column datatype='string' name='TRANS_Bed_DR' ordinal='5' />
+                                <column datatype='integer' name='TRANS_Room_DR' ordinal='6' />
+                                <column datatype='integer' name='TRANS_Ward_DR' ordinal='7' />
+                                <column datatype='integer' name='TRANS_TransType_DR' ordinal='8' />
+                                <column datatype='integer' name='TRANS_Status_DR' ordinal='9' />
+                              </columns>
+                            </relation>
+                          </relation>
+                          <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_Bed.csv1' table='[PAC_Bed#csv]' type='table'>
+                            <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                              <column datatype='integer' name='BED_WARD_ParRef' ordinal='0' />
+                              <column datatype='string' name='BED_RowID' ordinal='1' />
+                              <column datatype='integer' name='BED_Room_DR' ordinal='2' />
+                              <column datatype='string' name='BED_Code' ordinal='3' />
+                              <column datatype='integer' name='BED_BedType_DR' ordinal='4' />
+                              <column datatype='string' name='BED_Available' ordinal='5' />
+                            </columns>
+                          </relation>
+                        </relation>
+                        <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_Ward.csv1' table='[PAC_Ward#csv]' type='table'>
+                          <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                            <column datatype='integer' name='WARD_RowID' ordinal='0' />
+                            <column datatype='string' name='WARD_Code' ordinal='1' />
+                            <column datatype='string' name='WARD_Desc' ordinal='2' />
+                          </columns>
+                        </relation>
+                      </relation>
+                      <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_Room.csv1' table='[PAC_Room#csv]' type='table'>
+                        <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                          <column datatype='integer' name='ROOM_RowID' ordinal='0' />
+                          <column datatype='string' name='ROOM_Desc' ordinal='1' />
+                        </columns>
+                      </relation>
+                    </relation>
+                    <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_TransType.csv1' table='[PAC_TransType#csv]' type='table'>
+                      <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                        <column datatype='integer' name='TRANSTYP_RowId' ordinal='0' />
+                        <column datatype='string' name='TRANSTYP_Desc' ordinal='1' />
+                      </columns>
+                    </relation>
+                  </relation>
+                  <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_TransfRequestStatus.csv1' table='[PAC_TransfRequestStatus#csv]' type='table'>
+                    <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                      <column datatype='integer' name='REQST_RowId' ordinal='0' />
+                      <column datatype='string' name='REQST_Desc' ordinal='1' />
+                    </columns>
+                  </relation>
+                </relation>
+                <relation connection='textscan.10s4hjf0jlrx691aqt7vy17r5wgx' name='PAC_BedType.csv1' table='[PAC_BedType#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_AU' separator=','>
+                    <column datatype='integer' name='BEDTP_RowId' ordinal='0' />
+                    <column datatype='string' name='BEDTP_Desc' ordinal='1' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{27370C2B-C7E0-4F28-ABDB-44E3282D2DBD}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{955160F6-99F2-43C4-9BAF-AA8234E8518B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
