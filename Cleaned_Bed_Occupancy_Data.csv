@@ -1,0 +1,985 @@
+WARD_RowID,WARD_Desc,ROOM_RowID,BED_RowID,BED_BedType_DR,BED_DateTo,TRANSTYP_Desc,TRANS_StartDate,TRANS_StartTime,TRANS_EndDate,TRANS_EndTime,REQST_Desc,BEDTP_Desc
+16,Emergency Department,76,16||17,8,,Move,12/03/2016,9:29:00,23/05/2019,1/01/1900 9:07,Done,ED Trolley
+12,W5 - Mental Health Ward,32,12||23,5,,Booking,26/08/2021,19:53:00,26/08/2021,1/01/1900 20:20,Rejected,General Bed
+12,W5 - Mental Health Ward,32,12||23,5,,Booking,26/08/2021,19:56:00,26/08/2021,1/01/1900 20:58,Rejected,General Bed
+12,W5 - Mental Health Ward,32,12||23,5,,Booking,26/08/2021,20:22:00,26/08/2021,1/01/1900 20:43,Rejected,General Bed
+29,Birth Suite,13,29||2,2,,Move,18/11/2020,23:02:00,17/03/2016,1/01/1900 14:00,Rejected,Delivery Bed
+9,W1 - Maternity Ward,5,9||11,5,,Move,18/11/2020,12:48:00,21/11/2022,1/01/1900 8:43,Rejected,General Bed
+11,W3 - Medical / Surgical Ward,42,11||25,5,5/11/2021,Move,19/10/2019,11:33:00,20/10/2019,1/01/1900 21:05,Done,General Bed
+11,W3 - Medical / Surgical Ward,42,11||23,5,5/11/2021,Move,19/10/2019,21:07:00,20/10/2019,1/01/1900 21:05,Done,General Bed
+11,W3 - Medical / Surgical Ward,42,11||25,5,5/11/2021,Move,19/10/2019,21:07:00,23/10/2019,1/01/1900 14:23,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||19,5,5/11/2021,Move,21/07/2019,22:37:00,25/07/2019,1/01/1900 13:07,Done,General Bed
+11,W3 - Medical / Surgical Ward,42,11||21,5,5/11/2021,Move,21/07/2019,14:16:00,19/09/2019,1/01/1900 10:00,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||46,5,5/11/2021,Move,21/07/2019,10:47:00,19/10/2019,1/01/1900 11:31,Done,General Bed
+11,W3 - Medical / Surgical Ward,40,11||11,5,5/11/2021,Move,21/07/2019,11:33:00,20/10/2019,1/01/1900 12:04,Done,General Bed
+13,Oncology Ward,53,13||11,1,,Move,21/07/2019,12:15:00,20/10/2019,1/01/1900 12:45,Done,Chair
+11,W3 - Medical / Surgical Ward,40,11||11,5,5/11/2021,Move,21/07/2019,12:47:00,27/10/2019,1/01/1900 14:59,Done,General Bed
+12,W5 - Mental Health Ward,28,12||15,5,,Move,6/10/2019,12:02:00,18/06/2019,1/01/1900 8:01,Rejected,General Bed
+12,W5 - Mental Health Ward,28,12||15,5,,Move,6/10/2019,8:03:00,1/02/2020,1/01/1900 9:03,Rejected,General Bed
+11,W3 - Medical / Surgical Ward,43,11||32,5,5/11/2021,Move,7/04/2019,19:42:00,7/07/2019,1/01/1900 14:15,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,17,7||3,5,6/11/2025,Move,7/04/2019,14:17:00,19/10/2019,1/01/1900 11:26,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,17,7||3,5,6/11/2025,Move,7/04/2019,11:28:00,27/10/2019,1/01/1900 11:30,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||61,5,5/11/2021,Move,17/06/2019,15:33:00,21/06/2019,1/01/1900 12:05,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,27,7||18,5,6/11/2025,Move,17/06/2019,12:07:00,23/06/2019,1/01/1900 18:12,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||20,5,6/11/2025,Move,17/06/2019,18:14:00,15/09/2019,1/01/1900 8:11,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,22,7||14,5,6/11/2025,Move,17/06/2019,8:13:00,10/09/2019,1/01/1900 8:12,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,36,7||41,5,,Move,17/06/2019,8:14:00,13/11/2019,1/01/1900 15:16,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||11,5,,Move,7/11/2019,20:32:00,18/07/2019,1/01/1900 14:12,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,17,7||3,5,6/11/2025,Move,7/11/2019,14:14:00,29/07/2019,1/01/1900 12:26,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,34,7||35,5,6/11/2025,Move,7/11/2019,12:28:00,10/11/2019,1/01/1900 14:22,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,21,7||12,5,6/11/2025,Move,7/11/2019,14:24:00,22/10/2019,1/01/1900 21:46,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,31,7||24,5,6/11/2025,Move,7/11/2019,21:48:00,28/10/2019,1/01/1900 12:14,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,31,7||26,5,6/11/2025,Move,7/11/2019,12:16:00,29/10/2019,1/01/1900 2:25,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,31,7||26,5,6/11/2025,Move,7/11/2019,2:32:00,19/12/2019,1/01/1900 12:52,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,24,7||16,5,6/11/2025,Move,27/09/2019,21:08:00,3/12/2020,1/01/1900 11:31,Rejected,General Bed
+11,W3 - Medical / Surgical Ward,46,11||53,5,5/11/2021,Move,27/09/2019,16:09:00,14/08/2019,1/01/1900 16:44,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||59,5,5/11/2021,Move,27/09/2019,16:46:00,18/09/2019,1/01/1900 13:00,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||57,5,5/11/2021,Booking,12/04/2019,17:52:00,12/04/2019,1/01/1900 18:42,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||57,5,5/11/2021,Move,12/04/2019,18:44:00,12/05/2019,1/01/1900 11:10,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||27,5,,Move,12/04/2019,16:00:00,18/01/2018,1/01/1900 18:05,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,16,10||1,5,,Move,12/04/2019,18:07:00,29/01/2018,1/01/1900 10:54,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,24,7||16,5,6/11/2025,Move,28/10/2019,4:09:00,3/04/2020,1/01/1900 15:49,Rejected,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,24,7||16,5,6/11/2025,Move,28/10/2019,17:00:00,3/04/2020,1/01/1900 15:49,Rejected,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||13,5,,Move,28/10/2019,19:05:00,22/10/2019,1/01/1900 4:09,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||9,5,,Move,28/10/2019,4:11:00,22/10/2019,1/01/1900 4:09,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||15,5,5/11/2021,Move,30/09/2019,13:03:00,10/03/2019,1/01/1900 5:48,Done,General Bed
+11,W3 - Medical / Surgical Ward,40,11||5,5,5/11/2021,Move,30/09/2019,5:50:00,20/10/2019,1/01/1900 12:44,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,24,7||16,5,6/11/2025,Move,30/09/2019,13:07:00,21/10/2019,1/01/1900 12:50,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,31,7||24,5,6/11/2025,Move,30/09/2019,12:52:00,22/10/2019,1/01/1900 21:45,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,21,7||12,5,6/11/2025,Move,30/09/2019,21:47:00,23/10/2019,1/01/1900 11:40,Done,General Bed
+12,W5 - Mental Health Ward,20,12||5,5,,Move,19/10/2019,11:27:00,11/03/2019,1/01/1900 15:13,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,23,10||23,5,,Move,10/02/2019,23:55:00,19/10/2019,1/01/1900 10:59,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,23,10||23,5,,Move,10/02/2019,11:01:00,12/04/2019,1/01/1900 17:37,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||51,5,5/11/2021,Move,10/02/2019,17:39:00,12/04/2019,1/01/1900 23:22,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,23,10||23,5,,Move,10/02/2019,23:24:00,18/12/2019,1/01/1900 16:44,Done,General Bed
+11,W3 - Medical / Surgical Ward,42,11||21,5,5/11/2021,Move,10/06/2019,15:06:00,19/10/2019,1/01/1900 11:31,Done,General Bed
+11,W3 - Medical / Surgical Ward,42,11||21,5,5/11/2021,Move,10/06/2019,11:33:00,22/10/2019,1/01/1900 16:04,Done,General Bed
+11,W3 - Medical / Surgical Ward,46,11||53,5,5/11/2021,Move,10/06/2019,16:06:00,23/10/2019,1/01/1900 1:53,Done,General Bed
+11,W3 - Medical / Surgical Ward,46,11||53,5,5/11/2021,Move,10/06/2019,1:56:00,11/01/2019,1/01/1900 9:00,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||63,5,5/11/2021,Move,10/06/2019,9:02:00,11/01/2019,1/01/1900 9:35,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||67,5,5/11/2021,Move,10/06/2019,9:37:00,11/09/2019,1/01/1900 17:28,Done,General Bed
+11,W3 - Medical / Surgical Ward,49,11||71,5,5/11/2021,Move,10/06/2019,17:30:00,11/09/2019,1/01/1900 17:29,Done,General Bed
+11,W3 - Medical / Surgical Ward,46,11||53,5,5/11/2021,Move,10/08/2019,9:23:00,10/08/2019,1/01/1900 13:04,Done,General Bed
+8,Intensive Care Unit,58,8||5,6,,Move,10/08/2019,13:06:00,10/09/2019,1/01/1900 19:14,Done,Intensive Care Unit Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,30,10||43,5,5/11/2021,Move,10/08/2019,19:16:00,19/10/2019,1/01/1900 11:04,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||71,5,5/11/2021,Move,10/08/2019,11:06:00,19/10/2019,1/01/1900 13:44,Done,General Bed
+8,Intensive Care Unit,58,8||5,6,,Move,10/09/2019,21:19:00,17/10/2019,1/01/1900 12:58,Done,Intensive Care Unit Bed
+11,W3 - Medical / Surgical Ward,41,11||15,5,5/11/2021,Move,10/09/2019,13:00:00,19/10/2019,1/01/1900 11:33,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||15,5,5/11/2021,Move,10/09/2019,11:35:00,19/10/2019,1/01/1900 13:38,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||29,5,5/11/2021,Move,10/09/2019,13:40:00,23/10/2019,1/01/1900 11:49,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||44,5,5/11/2021,Move,10/09/2019,11:51:00,29/10/2019,1/01/1900 13:52,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||67,5,5/11/2021,Move,8/08/2019,21:32:00,9/03/2019,1/01/1900 12:44,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,24,7||16,5,6/11/2025,Move,8/08/2019,12:46:00,9/11/2019,1/01/1900 20:17,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,32,7||30,5,6/11/2025,Move,8/08/2019,20:19:00,29/10/2019,1/01/1900 11:42,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,22,7||14,5,6/11/2025,Move,8/08/2019,11:44:00,30/10/2019,1/01/1900 14:32,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||20,5,6/11/2025,Move,8/08/2019,14:34:00,11/12/2019,1/01/1900 13:30,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||40,5,5/11/2021,Move,10/12/2019,17:30:00,19/10/2019,1/01/1900 11:33,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||40,5,5/11/2021,Move,10/12/2019,11:35:00,21/10/2019,1/01/1900 16:43,Done,General Bed
+12,W5 - Mental Health Ward,17,12||3,5,5/01/2019,Move,13/10/2019,13:22:00,19/10/2019,1/01/1900 11:25,Done,General Bed
+12,W5 - Mental Health Ward,27,12||13,5,,Move,13/10/2019,11:27:00,11/12/2019,1/01/1900 13:00,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||65,5,5/11/2021,Move,13/10/2019,16:05:00,19/10/2019,1/01/1900 11:34,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||65,5,5/11/2021,Move,13/10/2019,11:36:00,20/10/2019,1/01/1900 14:13,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||13,5,5/11/2021,Move,15/10/2019,22:54:00,19/10/2019,1/01/1900 11:39,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||13,5,5/11/2021,Move,15/10/2019,11:41:00,24/10/2019,1/01/1900 12:30,Done,General Bed
+8,Intensive Care Unit,56,8||1,6,,Move,16/10/2019,14:39:00,16/10/2019,1/01/1900 14:45,Done,Intensive Care Unit Bed
+8,Intensive Care Unit,56,8||1,6,,Move,16/10/2019,14:47:00,18/10/2019,1/01/1900 1:00,Done,Intensive Care Unit Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||17,5,,Move,16/10/2019,17:50:00,19/10/2019,1/01/1900 11:08,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||15,5,,Move,16/10/2019,11:10:00,21/10/2019,1/01/1900 15:35,Done,General Bed
+11,W3 - Medical / Surgical Ward,46,11||53,5,5/11/2021,Move,17/10/2019,13:46:00,19/10/2019,1/01/1900 11:41,Done,General Bed
+11,W3 - Medical / Surgical Ward,46,11||53,5,5/11/2021,Move,17/10/2019,11:43:00,21/10/2019,1/01/1900 11:07,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||69,5,5/11/2021,Move,17/10/2019,17:58:00,19/10/2019,1/01/1900 11:42,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||69,5,5/11/2021,Move,17/10/2019,11:44:00,28/10/2019,1/01/1900 11:29,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,24,7||16,5,6/11/2025,Move,19/10/2019,12:04:00,20/10/2019,1/01/1900 11:28,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||20,5,6/11/2025,Move,19/10/2019,11:30:00,30/10/2019,1/01/1900 10:47,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,32,10||47,5,5/11/2021,Move,19/10/2019,0:17:00,19/10/2019,1/01/1900 11:12,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,32,10||47,5,5/11/2021,Move,19/10/2019,11:14:00,21/10/2019,1/01/1900 13:00,Done,General Bed
+8,Intensive Care Unit,59,8||7,6,,Move,26/09/2019,13:48:00,30/09/2019,1/01/1900 21:44,Done,Intensive Care Unit Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||67,5,5/11/2021,Move,26/09/2019,21:46:00,21/10/2019,1/01/1900 16:47,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||67,5,5/11/2021,Move,26/09/2019,11:01:00,21/10/2019,1/01/1900 16:46,Rejected,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||67,5,5/11/2021,Move,26/09/2019,16:49:00,29/10/2019,1/01/1900 11:19,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||61,5,5/11/2021,Move,26/09/2019,20:23:00,10/02/2019,1/01/1900 16:16,Done,General Bed
+15,Special Care Nursery,10,15||1,7,,Move,29/09/2019,14:19:00,18/10/2019,1/01/1900 21:15,Done,Neonate Isolette
+8,Intensive Care Unit,56,8||1,6,,Move,30/09/2019,16:47:00,30/09/2019,1/01/1900 19:10,Done,Intensive Care Unit Bed
+15,Special Care Nursery,10,15||11,7,,Move,10/01/2019,16:41:00,19/10/2019,1/01/1900 16:15,Done,Neonate Isolette
+15,Special Care Nursery,10,15||13,7,,Move,10/01/2019,16:17:00,21/10/2019,1/01/1900 18:53,Done,Neonate Isolette
+15,Special Care Nursery,10,15||3,7,,Move,10/03/2019,19:25:00,19/10/2019,1/01/1900 13:30,Done,Neonate Isolette
+4,Short Stay Unit,70,4||5,5,,Move,10/03/2019,18:45:00,10/04/2019,1/01/1900 20:22,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||31,5,,Move,10/03/2019,0:48:00,10/12/2019,1/01/1900 18:27,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,27,7||18,5,6/11/2025,Move,10/02/2019,19:52:00,14/10/2019,1/01/1900 16:06,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||20,5,6/11/2025,Move,10/02/2019,16:08:00,15/10/2019,1/01/1900 10:18,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,16,7||1,5,6/11/2025,Move,10/02/2019,10:20:00,11/03/2019,1/01/1900 13:30,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||63,5,5/11/2021,Move,10/07/2019,12:42:00,19/10/2019,1/01/1900 11:32,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||42,5,5/11/2021,Move,10/07/2019,11:34:00,19/10/2019,1/01/1900 11:34,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||59,5,5/11/2021,Move,10/07/2019,11:36:00,21/10/2019,1/01/1900 16:03,Done,General Bed
+11,W3 - Medical / Surgical Ward,49,11||71,5,5/11/2021,Move,10/07/2019,16:05:00,24/10/2019,1/01/1900 15:54,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||27,5,,Move,10/07/2019,12:12:00,10/07/2019,1/01/1900 21:28,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||32,5,5/11/2021,Move,10/07/2019,21:30:00,19/10/2019,1/01/1900 11:32,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||32,5,5/11/2021,Move,10/07/2019,11:34:00,11/03/2019,1/01/1900 12:01,Done,General Bed
+9,W1 - Maternity Ward,5,9||11,5,,Move,10/08/2019,9:32:00,19/10/2019,1/01/1900 12:06,Done,General Bed
+9,W1 - Maternity Ward,5,9||11,5,,Move,10/08/2019,12:08:00,22/10/2019,1/01/1900 14:00,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||29,5,5/11/2021,Move,10/08/2019,19:02:00,16/10/2019,1/01/1900 14:36,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,36,7||39,5,,Move,10/08/2019,14:38:00,19/10/2019,1/01/1900 12:01,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,36,7||39,5,,Move,10/08/2019,12:03:00,11/04/2019,1/01/1900 8:35,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||55,5,5/11/2021,Move,13/10/2019,18:07:00,19/10/2019,1/01/1900 11:35,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||55,5,5/11/2021,Move,13/10/2019,11:37:00,24/10/2019,1/01/1900 12:42,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||19,5,5/11/2021,Move,14/10/2019,17:46:00,19/10/2019,1/01/1900 11:35,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||19,5,5/11/2021,Move,14/10/2019,11:37:00,19/10/2019,1/01/1900 14:17,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||29,5,,Move,15/10/2019,16:28:00,15/10/2019,1/01/1900 20:25,Done,General Bed
+8,Intensive Care Unit,58,8||5,6,,Move,15/10/2019,20:27:00,17/10/2019,1/01/1900 19:03,Done,Intensive Care Unit Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||17,5,,Move,15/10/2019,19:05:00,19/10/2019,1/01/1900 11:05,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||17,5,,Move,15/10/2019,11:07:00,23/10/2019,1/01/1900 15:09,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||11,5,,Move,16/10/2019,13:24:00,19/10/2019,1/01/1900 11:08,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||11,5,,Move,16/10/2019,11:10:00,23/10/2019,1/01/1900 16:14,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||25,5,,Move,17/10/2019,0:40:00,19/10/2019,1/01/1900 11:09,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||25,5,,Move,17/10/2019,11:11:00,19/10/2019,1/01/1900 20:49,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||46,5,5/11/2021,Move,17/10/2019,16:31:00,19/10/2019,1/01/1900 11:42,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||46,5,5/11/2021,Move,17/10/2019,11:44:00,20/10/2019,1/01/1900 15:08,Done,General Bed
+11,W3 - Medical / Surgical Ward,42,11||27,5,5/11/2021,Move,17/10/2019,23:32:00,19/10/2019,1/01/1900 11:43,Done,General Bed
+11,W3 - Medical / Surgical Ward,42,11||27,5,5/11/2021,Move,17/10/2019,11:45:00,21/10/2019,1/01/1900 13:59,Done,General Bed
+4,Short Stay Unit,73,4||11,5,,Move,18/10/2019,12:38:00,19/10/2019,1/01/1900 12:01,Done,General Bed
+4,Short Stay Unit,73,4||11,5,,Move,18/10/2019,12:03:00,22/10/2019,1/01/1900 17:10,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||49,5,5/11/2021,Move,10/11/2019,19:32:00,19/10/2019,1/01/1900 11:04,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||65,5,5/11/2021,Move,10/11/2019,11:06:00,19/10/2019,1/01/1900 13:42,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||7,5,,Move,10/11/2019,13:44:00,20/10/2019,1/01/1900 11:30,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,23,10||21,5,,Move,18/10/2019,14:20:00,19/10/2019,1/01/1900 11:12,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||53,5,5/11/2021,Move,18/10/2019,11:14:00,20/10/2019,1/01/1900 12:30,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||36,5,5/11/2021,Move,18/10/2019,14:23:00,19/10/2019,1/01/1900 11:44,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||36,5,5/11/2021,Move,18/10/2019,11:46:00,22/10/2019,1/01/1900 8:22,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||65,5,5/11/2021,Move,18/10/2019,8:24:00,23/10/2019,1/01/1900 17:19,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||48,5,5/11/2021,Move,18/10/2019,17:21:00,23/10/2019,1/01/1900 17:44,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||46,5,5/11/2021,Move,18/10/2019,17:46:00,29/10/2019,1/01/1900 13:50,Done,General Bed
+11,W3 - Medical / Surgical Ward,42,11||23,5,5/11/2021,Move,10/12/2019,17:59:00,19/10/2019,1/01/1900 11:33,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||48,5,5/11/2021,Move,10/12/2019,11:35:00,22/10/2019,1/01/1900 15:32,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||11,5,,Move,13/10/2019,17:51:00,19/10/2019,1/01/1900 11:04,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||5,5,,Move,13/10/2019,11:06:00,21/10/2019,1/01/1900 18:20,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||69,5,5/11/2021,Move,14/10/2019,1:02:00,19/10/2019,1/01/1900 11:05,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||59,5,5/11/2021,Move,14/10/2019,11:07:00,23/10/2019,1/01/1900 13:34,Done,General Bed
+12,W5 - Mental Health Ward,32,12||21,5,,Move,19/10/2019,11:28:00,27/10/2019,1/01/1900 23:07,Done,General Bed
+12,W5 - Mental Health Ward,33,12||25,5,19/03/2021,Move,19/10/2019,23:10:00,29/10/2019,1/01/1900 14:50,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||57,5,5/11/2021,Move,14/10/2019,16:25:00,19/10/2019,1/01/1900 11:35,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||57,5,5/11/2021,Move,14/10/2019,11:37:00,20/10/2019,1/01/1900 17:00,Done,General Bed
+11,W3 - Medical / Surgical Ward,40,11||9,5,5/11/2021,Move,15/10/2019,1:49:00,19/10/2019,1/01/1900 11:36,Done,General Bed
+11,W3 - Medical / Surgical Ward,40,11||9,5,5/11/2021,Move,15/10/2019,11:38:00,24/10/2019,1/01/1900 11:31,Done,General Bed
+8,Intensive Care Unit,57,8||3,6,,Move,15/10/2019,9:22:00,19/10/2019,1/01/1900 11:53,Done,Intensive Care Unit Bed
+8,Intensive Care Unit,57,8||3,6,,Move,15/10/2019,11:55:00,20/10/2019,1/01/1900 17:54,Done,Intensive Care Unit Bed
+11,W3 - Medical / Surgical Ward,40,11||5,5,5/11/2021,Booking,15/10/2019,16:50:00,20/10/2019,1/01/1900 17:54,Done,General Bed
+11,W3 - Medical / Surgical Ward,40,11||5,5,5/11/2021,Move,15/10/2019,17:56:00,27/10/2019,1/01/1900 8:25,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,31,7||26,5,6/11/2025,Move,15/10/2019,14:37:00,19/10/2019,1/01/1900 12:01,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,31,7||26,5,6/11/2025,Move,15/10/2019,12:03:00,23/10/2019,1/01/1900 15:55,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,21,7||12,5,6/11/2025,Move,15/10/2019,16:00:00,29/10/2019,1/01/1900 15:22,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,34,7||35,5,6/11/2025,Move,15/10/2019,15:24:00,19/11/2019,1/01/1900 11:57,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||3,5,,Move,26/09/2019,23:38:00,16/10/2019,1/01/1900 13:48,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,32,7||33,5,6/11/2025,Move,26/09/2019,13:50:00,12/09/2019,1/01/1900 12:46,Rejected,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,32,7||33,5,6/11/2025,Move,26/09/2019,12:04:00,12/09/2019,1/01/1900 12:46,Rejected,General Bed
+15,Special Care Nursery,10,15||1,7,,Move,15/10/2019,15:32:00,19/10/2019,1/01/1900 16:15,Done,Neonate Isolette
+15,Special Care Nursery,10,15||5,7,,Move,15/10/2019,16:17:00,28/10/2019,1/01/1900 11:30,Done,Neonate Isolette
+9,W1 - Maternity Ward,15,9||37,2,28/06/2019,Move,16/10/2019,1:55:00,16/10/2019,1/01/1900 21:40,Done,Delivery Bed
+15,Special Care Nursery,10,15||5,7,,Move,16/10/2019,21:42:00,19/10/2019,1/01/1900 16:15,Done,Neonate Isolette
+15,Special Care Nursery,10,15||7,7,,Move,16/10/2019,16:17:00,21/10/2019,1/01/1900 14:32,Done,Neonate Isolette
+11,W3 - Medical / Surgical Ward,43,11||29,5,5/11/2021,Move,15/10/2019,22:19:00,19/10/2019,1/01/1900 11:39,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||29,5,5/11/2021,Move,15/10/2019,11:41:00,19/10/2019,1/01/1900 13:34,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||55,5,5/11/2021,Move,15/10/2019,22:37:00,19/10/2019,1/01/1900 11:07,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||55,5,5/11/2021,Move,15/10/2019,11:09:00,20/10/2019,1/01/1900 17:38,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||7,5,,Move,16/10/2019,9:33:00,19/10/2019,1/01/1900 11:08,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||7,5,,Move,16/10/2019,11:10:00,19/10/2019,1/01/1900 13:41,Done,General Bed
+11,W3 - Medical / Surgical Ward,39,11||3,5,5/11/2021,Move,16/10/2019,12:17:00,19/10/2019,1/01/1900 11:40,Done,General Bed
+11,W3 - Medical / Surgical Ward,39,11||3,5,5/11/2021,Move,16/10/2019,11:42:00,20/10/2019,1/01/1900 14:19,Done,General Bed
+9,W1 - Maternity Ward,1,9||1,5,,Move,16/10/2019,14:25:00,22/10/2019,1/01/1900 11:32,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||49,5,5/11/2021,Move,16/10/2019,12:35:00,19/10/2019,1/01/1900 11:08,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||9,5,,Move,16/10/2019,11:10:00,22/10/2019,1/01/1900 17:04,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||38,5,5/11/2021,Move,16/10/2019,17:16:00,19/10/2019,1/01/1900 11:00,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||38,5,5/11/2021,Move,16/10/2019,11:02:00,19/10/2019,1/01/1900 12:53,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||61,5,5/11/2021,Move,16/10/2019,22:39:00,19/10/2019,1/01/1900 11:09,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||61,5,5/11/2021,Move,16/10/2019,11:11:00,21/10/2019,1/01/1900 19:45,Done,General Bed
+9,W1 - Maternity Ward,8,9||31,5,,Move,17/10/2019,6:02:00,19/10/2019,1/01/1900 12:07,Done,General Bed
+9,W1 - Maternity Ward,8,9||31,5,,Move,17/10/2019,12:09:00,20/10/2019,1/01/1900 11:59,Done,General Bed
+9,W1 - Maternity Ward,4,9||9,5,,Move,17/10/2019,8:17:00,18/10/2019,1/01/1900 13:00,Done,General Bed
+8,Intensive Care Unit,60,8||9,6,,Move,16/10/2019,11:19:00,19/10/2019,1/01/1900 11:52,Done,Intensive Care Unit Bed
+8,Intensive Care Unit,60,8||9,6,,Move,16/10/2019,11:54:00,20/10/2019,1/01/1900 19:25,Done,Intensive Care Unit Bed
+11,W3 - Medical / Surgical Ward,47,11||57,5,5/11/2021,Move,16/10/2019,19:27:00,11/12/2019,1/01/1900 16:21,Done,General Bed
+12,W5 - Mental Health Ward,16,12||1,5,5/01/2019,Move,19/10/2019,11:27:00,19/10/2019,1/01/1900 11:27,Done,General Bed
+12,W5 - Mental Health Ward,50,12||29,5,5/01/2019,Move,19/10/2019,11:29:00,20/10/2019,1/01/1900 10:00,Done,General Bed
+9,W1 - Maternity Ward,6,9||15,5,,Move,18/10/2019,12:50:00,19/10/2019,1/01/1900 12:07,Done,General Bed
+9,W1 - Maternity Ward,6,9||15,5,,Move,18/10/2019,12:09:00,21/10/2019,1/01/1900 11:43,Done,General Bed
+9,W1 - Maternity Ward,8,9||21,5,,Move,18/10/2019,11:46:00,21/10/2019,1/01/1900 11:52,Done,General Bed
+9,W1 - Maternity Ward,8,9||31,5,,Move,18/10/2019,11:54:00,28/10/2019,1/01/1900 19:00,Done,General Bed
+4,Short Stay Unit,70,4||5,5,,Move,18/10/2019,1:55:00,11/06/2019,1/01/1900 17:00,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||53,5,5/11/2021,Move,18/10/2019,20:47:00,18/10/2019,1/01/1900 21:20,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,23,10||21,5,,Move,18/10/2019,21:22:00,19/10/2019,1/01/1900 11:00,Done,General Bed
+9,W1 - Maternity Ward,1,9||1,5,,Move,18/10/2019,21:02:00,19/10/2019,1/01/1900 12:06,Done,General Bed
+9,W1 - Maternity Ward,1,9||1,5,,Move,18/10/2019,12:08:00,19/10/2019,1/01/1900 20:33,Done,General Bed
+4,Short Stay Unit,74,4||13,5,,Move,19/10/2019,12:04:00,20/10/2019,1/01/1900 12:50,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,19,7||7,5,,Move,19/10/2019,12:02:00,24/11/2019,1/01/1900 14:18,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,28,10||41,5,5/11/2021,Move,19/10/2019,11:00:00,22/10/2019,1/01/1900 16:47,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,32,10||45,5,5/11/2021,Move,10/07/2019,18:07:00,10/11/2019,1/01/1900 10:07,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||29,5,5/11/2021,Move,10/07/2019,10:09:00,14/10/2019,1/01/1900 16:06,Done,General Bed
+11,W3 - Medical / Surgical Ward,38,11||1,5,5/11/2021,Move,10/07/2019,16:08:00,17/10/2019,1/01/1900 10:20,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||61,5,5/11/2021,Move,10/07/2019,10:22:00,24/10/2019,1/01/1900 14:30,Done,General Bed
+11,W3 - Medical / Surgical Ward,47,11||55,5,5/11/2021,Move,17/09/2019,14:25:00,24/09/2019,1/01/1900 2:45,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||22,5,6/11/2025,Move,17/09/2019,2:47:00,19/10/2019,1/01/1900 11:26,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||22,5,6/11/2025,Move,17/09/2019,11:28:00,21/11/2019,1/01/1900 13:45,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||20,5,6/11/2025,Move,10/08/2019,17:33:00,10/08/2019,1/01/1900 17:34,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,24,7||16,5,6/11/2025,Move,10/08/2019,17:36:00,10/11/2019,1/01/1900 14:22,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,34,7||37,5,6/11/2025,Move,10/08/2019,14:24:00,19/10/2019,1/01/1900 13:05,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,34,7||37,5,6/11/2025,Move,10/08/2019,13:07:00,11/12/2019,1/01/1900 10:55,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||17,5,5/11/2021,Move,10/09/2019,11:32:00,19/10/2019,1/01/1900 11:32,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||17,5,5/11/2021,Move,10/09/2019,11:34:00,11/08/2019,1/01/1900 15:20,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||48,5,5/11/2021,Move,10/09/2019,15:22:00,11/09/2019,1/01/1900 20:04,Done,General Bed
+11,W3 - Medical / Surgical Ward,46,11||53,5,5/11/2021,Move,10/09/2019,20:06:00,11/09/2019,1/01/1900 20:05,Done,General Bed
+11,W3 - Medical / Surgical Ward,46,11||53,5,5/11/2021,Move,10/12/2019,18:32:00,17/10/2019,1/01/1900 16:27,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||42,5,5/11/2021,Move,10/12/2019,16:29:00,20/10/2019,1/01/1900 15:46,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,34,7||35,5,6/11/2025,Move,19/10/2019,12:03:00,21/10/2019,1/01/1900 12:49,Done,General Bed
+12,W5 - Mental Health Ward,24,12||11,5,,Move,13/10/2019,17:08:00,19/10/2019,1/01/1900 11:26,Done,General Bed
+12,W5 - Mental Health Ward,33,12||25,5,19/03/2021,Move,13/10/2019,11:28:00,27/10/2019,1/01/1900 23:08,Done,General Bed
+12,W5 - Mental Health Ward,24,12||11,5,,Move,13/10/2019,23:10:00,29/10/2019,1/01/1900 15:38,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||67,5,5/11/2021,Move,14/10/2019,12:28:00,19/10/2019,1/01/1900 11:35,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||67,5,5/11/2021,Move,14/10/2019,11:37:00,20/10/2019,1/01/1900 12:12,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||20,5,6/11/2025,Move,14/10/2019,15:47:00,19/10/2019,1/01/1900 12:02,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,27,7||18,5,6/11/2025,Move,14/10/2019,12:04:00,27/10/2019,1/01/1900 16:15,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||31,5,,Move,14/10/2019,15:54:00,19/10/2019,1/01/1900 11:05,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||31,5,,Move,14/10/2019,11:07:00,21/10/2019,1/01/1900 15:00,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,24,7||16,5,6/11/2025,Move,14/10/2019,15:17:00,27/10/2019,1/01/1900 12:32,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,17,7||3,5,6/11/2025,Move,14/10/2019,12:34:00,11/07/2019,1/01/1900 11:21,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||29,5,5/11/2021,Move,15/10/2019,4:41:00,19/10/2019,1/01/1900 11:36,Done,General Bed
+11,W3 - Medical / Surgical Ward,49,11||71,5,5/11/2021,Move,15/10/2019,11:38:00,19/10/2019,1/01/1900 12:42,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||20,5,6/11/2025,Move,15/10/2019,12:18:00,19/10/2019,1/01/1900 12:02,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,29,7||20,5,6/11/2025,Move,15/10/2019,12:04:00,20/10/2019,1/01/1900 11:20,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,16,10||1,5,,Move,15/10/2019,17:36:00,19/10/2019,1/01/1900 11:07,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,16,10||1,5,,Move,15/10/2019,11:09:00,19/10/2019,1/01/1900 11:50,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||29,5,,Move,15/10/2019,23:15:00,19/10/2019,1/01/1900 11:07,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||29,5,,Move,15/10/2019,11:09:00,24/10/2019,1/01/1900 21:18,Done,General Bed
+11,W3 - Medical / Surgical Ward,49,11||71,5,5/11/2021,Move,15/10/2019,21:20:00,26/10/2019,1/01/1900 13:00,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||53,5,5/11/2021,Move,16/10/2019,19:53:00,19/10/2019,1/01/1900 11:09,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||63,5,5/11/2021,Move,16/10/2019,11:11:00,23/10/2019,1/01/1900 16:45,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||34,5,5/11/2021,Move,17/10/2019,9:34:00,19/10/2019,1/01/1900 11:40,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||34,5,5/11/2021,Move,17/10/2019,11:42:00,23/10/2019,1/01/1900 11:44,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||15,5,5/11/2021,Move,17/10/2019,11:46:00,28/10/2019,1/01/1900 15:04,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||27,5,,Move,17/10/2019,13:22:00,19/10/2019,1/01/1900 11:10,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||27,5,,Move,17/10/2019,11:12:00,20/10/2019,1/01/1900 14:30,Done,General Bed
+8,Intensive Care Unit,58,8||5,6,,Move,17/10/2019,23:29:00,19/10/2019,1/01/1900 11:52,Done,Intensive Care Unit Bed
+8,Intensive Care Unit,58,8||5,6,,Move,17/10/2019,11:54:00,21/10/2019,1/01/1900 18:16,Done,Intensive Care Unit Bed
+8,Intensive Care Unit,59,8||7,6,,Move,17/10/2019,18:18:00,22/10/2019,1/01/1900 13:11,Done,Intensive Care Unit Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||55,5,5/11/2021,Move,17/10/2019,14:33:00,31/10/2019,1/01/1900 16:01,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||49,5,5/11/2021,Move,17/10/2019,22:27:00,19/10/2019,1/01/1900 11:10,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||49,5,5/11/2021,Move,17/10/2019,11:12:00,21/10/2019,1/01/1900 11:35,Done,General Bed
+4,Short Stay Unit,70,4||5,5,,Move,18/10/2019,2:27:00,19/10/2019,1/01/1900 3:50,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,32,10||45,5,5/11/2021,Move,18/10/2019,3:52:00,19/10/2019,1/01/1900 11:11,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,32,10||45,5,5/11/2021,Move,18/10/2019,11:13:00,19/10/2019,1/01/1900 20:32,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,22,7||14,5,6/11/2025,Move,18/10/2019,20:34:00,24/10/2019,1/01/1900 10:33,Done,General Bed
+8,Intensive Care Unit,59,8||7,6,,Move,18/10/2019,3:46:00,19/10/2019,1/01/1900 11:51,Done,Intensive Care Unit Bed
+8,Intensive Care Unit,59,8||7,6,,Move,18/10/2019,11:53:00,21/10/2019,1/01/1900 16:53,Done,Intensive Care Unit Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||15,5,,Move,18/10/2019,16:56:00,21/10/2019,1/01/1900 16:54,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||15,5,,Move,18/10/2019,16:56:00,23/10/2019,1/01/1900 15:37,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||36,5,5/11/2021,Move,18/10/2019,4:10:00,19/10/2019,1/01/1900 11:43,Done,General Bed
+11,W3 - Medical / Surgical Ward,42,11||23,5,5/11/2021,Move,18/10/2019,11:45:00,20/10/2019,1/01/1900 20:08,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||46,5,5/11/2021,Move,18/10/2019,20:10:00,23/10/2019,1/01/1900 15:37,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||27,5,,Move,18/10/2019,14:51:00,10/11/2019,1/01/1900 3:26,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,21,10||19,5,,Move,18/10/2019,11:06:00,24/10/2019,1/01/1900 13:16,Rejected,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,21,10||19,5,,Move,18/10/2019,3:28:00,20/10/2019,1/01/1900 21:45,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,21,10||19,5,,Move,18/10/2019,21:47:00,25/10/2019,1/01/1900 15:46,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||17,5,,Move,18/10/2019,15:48:00,25/10/2019,1/01/1900 15:46,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,21,10||19,5,,Move,18/10/2019,15:48:00,29/10/2019,1/01/1900 14:00,Done,General Bed
+8,Intensive Care Unit,60,8||9,6,,Move,10/09/2019,13:21:00,16/10/2019,1/01/1900 17:40,Done,Intensive Care Unit Bed
+11,W3 - Medical / Surgical Ward,40,11||7,5,5/11/2021,Move,10/09/2019,17:42:00,19/10/2019,1/01/1900 11:33,Done,General Bed
+11,W3 - Medical / Surgical Ward,40,11||7,5,5/11/2021,Move,10/09/2019,11:35:00,23/10/2019,1/01/1900 17:10,Done,General Bed
+9,W1 - Maternity Ward,13,9||33,2,28/06/2019,Move,13/10/2019,18:02:00,19/10/2019,1/01/1900 12:06,Done,Delivery Bed
+9,W1 - Maternity Ward,3,9||7,5,,Move,13/10/2019,12:08:00,19/10/2019,1/01/1900 12:37,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||51,5,5/11/2021,Move,10/12/2019,23:58:00,19/10/2019,1/01/1900 11:04,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||51,5,5/11/2021,Move,10/12/2019,11:06:00,28/10/2019,1/01/1900 11:50,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||69,5,5/11/2021,Move,15/10/2019,11:07:00,23/10/2019,1/01/1900 11:45,Done,General Bed
+4,Short Stay Unit,71,4||7,5,,Move,14/10/2019,21:07:00,15/10/2019,1/01/1900 0:03,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||5,5,,Move,14/10/2019,0:05:00,16/10/2019,1/01/1900 14:03,Done,General Bed
+12,W5 - Mental Health Ward,35,12||27,5,,Move,15/10/2019,0:45:00,19/10/2019,1/01/1900 11:26,Done,General Bed
+12,W5 - Mental Health Ward,35,12||27,5,,Move,15/10/2019,11:28:00,20/10/2019,1/01/1900 17:30,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,24,7||16,5,6/11/2025,Move,15/10/2019,16:13:00,19/10/2019,1/01/1900 12:02,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,31,7||24,5,6/11/2025,Move,15/10/2019,12:04:00,21/10/2019,1/01/1900 12:50,Done,General Bed
+7,W4 - Rehabilitation / PalliCare Ward,34,7||35,5,6/11/2025,Move,15/10/2019,12:52:00,29/10/2019,1/01/1900 14:00,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||3,5,,Move,14/10/2019,19:36:00,19/10/2019,1/01/1900 11:07,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||3,5,,Move,14/10/2019,11:09:00,24/10/2019,1/01/1900 2:07,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||3,5,,Move,14/10/2019,2:10:00,27/10/2019,1/01/1900 11:25,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||57,5,5/11/2021,Move,17/10/2019,16:47:00,19/10/2019,1/01/1900 11:10,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||57,5,5/11/2021,Move,17/10/2019,11:12:00,24/10/2019,1/01/1900 11:43,Done,General Bed
+11,W3 - Medical / Surgical Ward,38,11||1,5,5/11/2021,Move,17/10/2019,10:51:00,19/10/2019,1/01/1900 11:41,Done,General Bed
+11,W3 - Medical / Surgical Ward,38,11||1,5,5/11/2021,Move,17/10/2019,11:43:00,20/10/2019,1/01/1900 16:54,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||63,5,5/11/2021,Move,17/10/2019,16:35:00,19/10/2019,1/01/1900 11:42,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||63,5,5/11/2021,Move,17/10/2019,11:44:00,23/10/2019,1/01/1900 17:18,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||46,5,5/11/2021,Move,17/10/2019,17:20:00,23/10/2019,1/01/1900 17:44,Done,General Bed
+11,W3 - Medical / Surgical Ward,45,11||48,5,5/11/2021,Move,17/10/2019,17:46:00,28/10/2019,1/01/1900 14:00,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,26,10||33,5,5/11/2021,Move,17/10/2019,23:53:00,19/10/2019,1/01/1900 11:11,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,26,10||33,5,5/11/2021,Move,17/10/2019,11:13:00,20/10/2019,1/01/1900 14:00,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,30,10||43,5,5/11/2021,Move,18/10/2019,11:33:00,19/10/2019,1/01/1900 11:12,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,30,10||43,5,5/11/2021,Move,18/10/2019,11:14:00,19/10/2019,1/01/1900 13:13,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,16,10||1,5,,Move,18/10/2019,13:15:00,23/10/2019,1/01/1900 16:19,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,26,10||35,5,5/11/2021,Move,18/10/2019,13:02:00,19/10/2019,1/01/1900 11:12,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,26,10||35,5,5/11/2021,Move,18/10/2019,11:14:00,20/10/2019,1/01/1900 16:17,Done,General Bed
+4,Short Stay Unit,71,4||7,5,,Move,18/10/2019,15:32:00,19/10/2019,1/01/1900 12:02,Done,General Bed
+4,Short Stay Unit,71,4||7,5,,Move,18/10/2019,12:04:00,20/10/2019,1/01/1900 6:44,Done,General Bed
+4,Short Stay Unit,71,4||7,5,,Booking,18/10/2019,6:54:00,20/10/2019,1/01/1900 6:59,Done,General Bed
+4,Short Stay Unit,71,4||7,5,,Move,18/10/2019,7:01:00,21/10/2019,1/01/1900 11:30,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||44,5,5/11/2021,Move,19/10/2019,16:31:00,19/10/2019,1/01/1900 11:44,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||44,5,5/11/2021,Move,19/10/2019,11:46:00,23/10/2019,1/01/1900 10:14,Done,General Bed
+16,Emergency Department,79,16||23,8,,Move,19/10/2019,9:56:00,19/10/2019,1/01/1900 9:59,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,19/10/2019,10:05:00,19/10/2019,1/01/1900 6:05,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,20/10/2019,16:37:00,20/10/2019,1/01/1900 17:35,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,20/10/2019,17:55:00,20/10/2019,1/01/1900 18:40,Done,General Bed
+9,W1 - Maternity Ward,2,9||3,5,,Move,24/10/2019,15:57:00,27/10/2019,1/01/1900 12:22,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,20/10/2019,16:57:00,20/10/2019,1/01/1900 17:35,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,19/10/2019,11:04:00,19/10/2019,1/01/1900 11:04,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,19/10/2019,11:24:00,19/10/2019,1/01/1900 13:11,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Booking,20/10/2019,7:02:00,20/10/2019,1/01/1900 19:30,Requested,General Bed
+16,Emergency Department,76,16||17,8,,Move,19/10/2019,11:16:00,19/10/2019,1/01/1900 14:11,Done,ED Trolley
+9,W1 - Maternity Ward,8,9||21,5,,Move,20/10/2019,14:51:00,21/10/2019,1/01/1900 0:37,Rejected,General Bed
+9,W1 - Maternity Ward,8,9||21,5,,Move,20/10/2019,0:42:00,21/10/2019,1/01/1900 9:50,Done,General Bed
+16,Emergency Department,80,16||25,8,,Move,19/10/2019,11:33:00,19/10/2019,1/01/1900 12:53,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Move,21/10/2019,7:02:00,21/10/2019,1/01/1900 15:40,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,17/10/2019,12:05:00,19/10/2019,1/01/1900 18:56,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,20/10/2019,17:22:00,20/10/2019,1/01/1900 18:05,Done,General Bed
+16,Emergency Department,63,16||3,8,,Move,19/10/2019,9:22:00,19/10/2019,1/01/1900 11:07,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,19/10/2019,11:09:00,19/10/2019,1/01/1900 11:09,Done,ED Trolley
+16,Emergency Department,75,16||15,8,,Move,19/10/2019,11:11:00,19/10/2019,1/01/1900 11:12,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,19/10/2019,11:14:00,19/10/2019,1/01/1900 15:47,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,19/10/2019,15:55:00,19/10/2019,1/01/1900 17:50,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Booking,20/10/2019,7:02:00,20/10/2019,1/01/1900 17:30,Done,General Bed
+16,Emergency Department,75,16||15,8,,Move,16/10/2019,11:14:00,19/10/2019,1/01/1900 16:42,Done,ED Trolley
+5,Day Surgery Area,93,5||9,5,,Booking,21/10/2019,13:02:00,21/10/2019,1/01/1900 16:15,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,19/10/2019,12:10:00,19/10/2019,1/01/1900 14:07,Done,ED Trolley
+9,W1 - Maternity Ward,7,9||19,5,,Booking,26/10/2016,7:00:00,1/02/1903,1/01/1900 0:00,Rejected,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||55,5,5/11/2021,Move,17/10/2016,19:33:00,17/10/2016,1/01/1900 19:35,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||27,5,,Move,17/10/2016,19:35:00,24/10/2016,1/01/1900 13:55,Done,General Bed
+5,Day Surgery Area,93,5||9,5,,Move,18/10/2016,7:00:00,18/10/2016,1/01/1900 15:45,Done,General Bed
+16,Emergency Department,65,16||7,8,,Move,16/10/2016,12:12:00,16/10/2016,1/01/1900 13:16,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,17/10/2016,15:41:00,17/10/2016,1/01/1900 17:05,Done,General Bed
+16,Emergency Department,64,16||5,8,,Move,16/10/2016,12:19:00,16/10/2016,1/01/1900 12:47,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,16/10/2016,11:27:00,16/10/2016,1/01/1900 12:57,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Booking,17/10/2016,7:00:00,17/10/2016,1/01/1900 18:15,Requested,General Bed
+16,Emergency Department,79,16||23,8,,Move,16/10/2016,11:36:00,16/10/2016,1/01/1900 13:53,Done,ED Trolley
+16,Emergency Department,83,16||31,8,,Move,16/10/2016,11:33:00,16/10/2016,1/01/1900 18:18,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,16/10/2016,11:37:00,16/10/2016,1/01/1900 11:38,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,16/10/2016,11:39:00,16/10/2016,1/01/1900 11:43,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Move,17/10/2016,6:59:00,17/10/2016,1/01/1900 18:00,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||7,5,,Move,17/10/2016,19:27:00,26/10/2016,1/01/1900 10:00,Done,General Bed
+16,Emergency Department,78,16||21,8,,Move,16/10/2016,11:40:00,16/10/2016,1/01/1900 14:15,Done,ED Trolley
+16,Emergency Department,80,16||25,8,,Move,16/10/2016,12:57:00,16/10/2016,1/01/1900 13:18,Done,ED Trolley
+16,Emergency Department,84,16||33,8,,Move,16/10/2016,12:23:00,16/10/2016,1/01/1900 13:10,Done,ED Trolley
+16,Emergency Department,82,16||29,8,,Move,16/10/2016,11:49:00,16/10/2016,1/01/1900 14:21,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,17/10/2016,15:30:00,17/10/2016,1/01/1900 15:51,Done,General Bed
+16,Emergency Department,68,16||13,8,,Move,16/10/2016,12:14:00,16/10/2016,1/01/1900 12:16,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,17/10/2016,15:31:00,17/10/2016,1/01/1900 15:50,Done,General Bed
+16,Emergency Department,75,16||15,8,,Move,16/10/2016,16:43:00,16/10/2016,1/01/1900 16:42,Done,ED Trolley
+4,Short Stay Unit,70,4||5,5,,Move,16/10/2016,16:54:00,16/10/2016,1/01/1900 19:29,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,30,10||43,5,5/11/2021,Move,16/10/2016,20:25:00,17/10/2016,1/01/1900 9:30,Done,General Bed
+16,Emergency Department,66,16||9,8,,Move,16/10/2016,13:26:00,16/10/2016,1/01/1900 13:28,Done,ED Trolley
+16,Emergency Department,80,16||25,8,,Move,16/10/2016,13:28:00,16/10/2016,1/01/1900 15:35,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Move,18/10/2016,7:00:00,18/10/2016,1/01/1900 14:15,Done,General Bed
+5,Day Surgery Area,93,5||11,5,,Move,17/10/2016,7:00:00,17/10/2016,1/01/1900 15:47,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,17/10/2016,18:11:00,17/10/2016,1/01/1900 18:40,Done,General Bed
+16,Emergency Department,81,16||27,8,,Move,16/10/2016,13:49:00,16/10/2016,1/01/1900 12:57,Done,ED Trolley
+4,Short Stay Unit,72,4||9,5,,Move,16/10/2016,13:49:00,16/10/2016,1/01/1900 13:50,Done,General Bed
+4,Short Stay Unit,70,4||5,5,,Move,16/10/2016,13:50:00,16/10/2016,1/01/1900 13:50,Done,General Bed
+4,Short Stay Unit,72,4||9,5,,Move,16/10/2016,13:50:00,17/10/2016,1/01/1900 0:44,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||38,5,5/11/2021,Move,17/10/2016,0:57:00,20/10/2016,1/01/1900 10:51,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,17/10/2016,16:50:00,17/10/2016,1/01/1900 16:51,Done,General Bed
+16,Emergency Department,63,16||3,8,,Move,16/10/2016,13:17:00,16/10/2016,1/01/1900 14:32,Done,ED Trolley
+16,Emergency Department,76,16||17,8,,Move,16/10/2016,14:32:00,16/10/2016,1/01/1900 15:30,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Booking,17/10/2016,7:00:00,17/10/2016,1/01/1900 19:30,Done,General Bed
+16,Emergency Department,65,16||7,8,,Move,16/10/2016,13:38:00,16/10/2016,1/01/1900 15:39,Done,ED Trolley
+5,Day Surgery Area,93,5||9,5,,Move,17/10/2016,7:00:00,17/10/2016,1/01/1900 15:50,Done,General Bed
+16,Emergency Department,87,16||39,8,,Move,16/10/2016,13:23:00,16/10/2016,1/01/1900 13:25,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,16/10/2016,13:25:00,16/10/2016,1/01/1900 13:37,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,17/10/2016,18:28:00,17/10/2016,1/01/1900 18:40,Done,General Bed
+5,Day Surgery Area,93,5||5,5,,Move,18/10/2016,7:00:00,18/10/2016,1/01/1900 15:46,Done,General Bed
+16,Emergency Department,83,16||31,8,,Move,16/10/2016,18:19:00,16/10/2016,1/01/1900 18:18,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||65,5,5/11/2021,Move,16/10/2016,18:38:00,19/10/2016,1/01/1900 11:30,Done,General Bed
+16,Emergency Department,84,16||33,8,,Move,16/10/2016,13:28:00,16/10/2016,1/01/1900 13:29,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,16/10/2016,13:57:00,16/10/2016,1/01/1900 13:58,Done,ED Trolley
+16,Emergency Department,79,16||23,8,,Move,16/10/2016,13:58:00,16/10/2016,1/01/1900 15:52,Done,ED Trolley
+5,Day Surgery Area,93,5||9,5,,Move,18/10/2016,7:00:00,18/10/2016,1/01/1900 17:05,Done,General Bed
+5,Day Surgery Area,93,5||9,5,,Move,18/10/2016,7:00:00,18/10/2016,1/01/1900 20:20,Done,General Bed
+16,Emergency Department,68,16||13,8,,Move,16/10/2016,13:42:00,16/10/2016,1/01/1900 16:15,Done,ED Trolley
+7,W4 - Rehabilitation / PalliCare Ward,22,7||14,5,6/11/2025,Move,16/10/2016,13:29:00,16/10/2016,1/01/1900 18:59,Rejected,General Bed
+16,Emergency Department,62,16||1,8,,Move,16/10/2016,12:57:00,16/10/2016,1/01/1900 14:35,Done,ED Trolley
+16,Emergency Department,82,16||29,8,,Move,16/10/2016,14:35:00,16/10/2016,1/01/1900 16:54,Done,ED Trolley
+16,Emergency Department,84,16||33,8,,Move,16/10/2016,14:02:00,16/10/2016,1/01/1900 18:23,Done,ED Trolley
+8,Intensive Care Unit,58,8||5,6,,Move,18/10/2016,18:31:00,20/10/2016,1/01/1900 15:12,Done,Intensive Care Unit Bed
+11,W3 - Medical / Surgical Ward,42,11||25,5,5/11/2021,Move,20/10/2016,15:12:00,24/10/2016,1/01/1900 11:00,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,18/10/2016,7:00:00,18/10/2016,1/01/1900 18:10,Done,General Bed
+5,Day Surgery Area,93,5||5,5,,Move,18/10/2016,7:00:00,18/10/2016,1/01/1900 10:00,Done,General Bed
+5,Day Surgery Area,93,5||5,5,,Move,18/10/2016,7:00:00,18/10/2016,1/01/1900 19:17,Done,General Bed
+5,Day Surgery Area,93,5||15,5,,Move,18/10/2016,7:00:00,18/10/2016,1/01/1900 16:20,Done,General Bed
+8,Intensive Care Unit,57,8||3,6,,Move,19/10/2016,14:26:00,20/10/2016,1/01/1900 13:30,Done,Intensive Care Unit Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||69,5,5/11/2021,Move,20/10/2016,13:30:00,23/10/2016,1/01/1900 12:15,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,19/10/2016,7:00:00,19/10/2016,1/01/1900 18:05,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,20/10/2016,7:00:00,20/10/2016,1/01/1900 10:25,Done,General Bed
+16,Emergency Department,81,16||27,8,,Move,16/10/2016,13:26:00,16/10/2016,1/01/1900 16:22,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Move,20/10/2016,7:00:00,20/10/2016,1/01/1900 11:10,Done,General Bed
+8,Intensive Care Unit,58,8||5,6,,Move,20/10/2016,18:13:00,21/10/2016,1/01/1900 0:56,Done,Intensive Care Unit Bed
+8,Intensive Care Unit,59,8||7,6,,Move,21/10/2016,0:56:00,21/10/2016,1/01/1900 6:43,Done,Intensive Care Unit Bed
+8,Intensive Care Unit,59,8||7,6,,Move,21/10/2016,6:43:00,21/10/2016,1/01/1900 10:12,Done,Intensive Care Unit Bed
+16,Emergency Department,87,16||39,8,,Move,16/10/2016,13:59:00,16/10/2016,1/01/1900 15:22,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Move,19/10/2016,7:00:00,19/10/2016,1/01/1900 16:30,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,16/10/2016,14:26:00,16/10/2016,1/01/1900 15:40,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Move,19/10/2016,7:00:00,19/10/2016,1/01/1900 19:10,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,19/10/2016,7:00:00,19/10/2016,1/01/1900 17:55,Done,General Bed
+5,Day Surgery Area,93,5||1,5,,Move,20/10/2016,7:00:00,20/10/2016,1/01/1900 15:00,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,20/10/2016,7:00:00,20/10/2016,1/01/1900 16:00,Done,General Bed
+16,Emergency Department,64,16||5,8,,Move,16/10/2016,14:38:00,16/10/2016,1/01/1900 14:39,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,16/10/2016,14:39:18,16/10/2016,1/01/1900 14:53,Done,ED Trolley
+16,Emergency Department,67,16||11,8,,Move,16/10/2016,14:56:00,16/10/2016,1/01/1900 14:56,Done,ED Trolley
+16,Emergency Department,54,16||42,8,,Move,16/10/2016,14:53:00,16/10/2016,1/01/1900 14:54,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,16/10/2016,14:54:00,16/10/2016,1/01/1900 16:06,Done,ED Trolley
+16,Emergency Department,78,16||21,8,,Move,16/10/2016,14:40:00,17/10/2016,1/01/1900 1:24,Done,ED Trolley
+16,Emergency Department,62,16||1,8,,Move,16/10/2016,14:54:00,16/10/2016,1/01/1900 16:37,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,16/10/2016,16:37:00,16/10/2016,1/01/1900 18:39,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Move,17/10/2016,7:00:00,17/10/2016,1/01/1900 15:50,Done,General Bed
+9,W1 - Maternity Ward,7,9||19,5,,Booking,16/10/2016,17:30:00,16/10/2016,1/01/1900 16:30,Done,General Bed
+9,W1 - Maternity Ward,7,9||19,5,,Move,16/10/2016,16:30:00,17/10/2016,1/01/1900 2:00,Done,General Bed
+9,W1 - Maternity Ward,13,9||33,2,28/06/2019,Move,17/10/2016,2:00:00,18/10/2016,1/01/1900 0:36,Done,Delivery Bed
+9,W1 - Maternity Ward,7,9||19,5,,Move,17/10/2016,9:58:00,18/10/2016,1/01/1900 0:35,Rejected,General Bed
+9,W1 - Maternity Ward,7,9||19,5,,Move,18/10/2016,0:36:00,20/10/2016,1/01/1900 12:50,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,20/10/2016,7:00:00,20/10/2016,1/01/1900 17:00,Done,General Bed
+5,Day Surgery Area,93,5||5,5,,Move,20/10/2016,7:00:00,20/10/2016,1/01/1900 16:05,Done,General Bed
+16,Emergency Department,66,16||9,8,,Move,16/10/2016,15:12:00,16/10/2016,1/01/1900 15:13,Done,ED Trolley
+16,Emergency Department,66,16||9,8,,Move,16/10/2016,15:13:00,16/10/2016,1/01/1900 15:27,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Move,20/10/2016,7:00:00,20/10/2016,1/01/1900 12:35,Done,General Bed
+5,Day Surgery Area,93,5||9,5,,Move,20/10/2016,7:00:00,20/10/2016,1/01/1900 19:32,Done,General Bed
+16,Emergency Department,66,16||9,8,,Move,16/10/2016,15:28:00,16/10/2016,1/01/1900 16:17,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Move,20/10/2016,7:00:00,20/10/2016,1/01/1900 13:20,Done,General Bed
+9,W1 - Maternity Ward,13,9||33,2,28/06/2019,Move,11/01/2016,11:23:00,11/02/2016,1/01/1900 2:26,Done,Delivery Bed
+9,W1 - Maternity Ward,2,9||5,5,,Move,11/02/2016,2:26:00,11/05/2016,1/01/1900 17:18,Done,General Bed
+9,W1 - Maternity Ward,6,9||13,5,,Move,11/05/2016,17:18:00,11/08/2016,1/01/1900 14:00,Done,General Bed
+16,Emergency Department,76,16||17,8,,Move,16/10/2016,15:35:00,16/10/2016,1/01/1900 16:22,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,16/10/2016,15:52:00,16/10/2016,1/01/1900 16:09,Done,ED Trolley
+16,Emergency Department,80,16||25,8,,Move,16/10/2016,16:05:00,16/10/2016,1/01/1900 19:17,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,30,10||43,5,5/11/2021,Move,16/10/2016,16:12:00,16/10/2016,1/01/1900 18:41,Done,General Bed
+16,Emergency Department,84,16||33,8,,Move,16/10/2016,18:24:00,16/10/2016,1/01/1900 18:23,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||71,5,5/11/2021,Move,16/10/2016,20:54:00,18/10/2016,1/01/1900 12:16,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,16/10/2016,17:00:00,16/10/2016,1/01/1900 18:28,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,16/10/2016,17:02:00,16/10/2016,1/01/1900 17:57,Done,ED Trolley
+16,Emergency Department,66,16||9,8,,Move,16/10/2016,17:06:00,16/10/2016,1/01/1900 17:30,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Booking,17/10/2016,8:00:00,17/10/2016,1/01/1900 9:34,Done,General Bed
+16,Emergency Department,64,16||5,8,,Move,16/10/2016,17:23:00,16/10/2016,1/01/1900 17:41,Done,ED Trolley
+16,Emergency Department,65,16||7,8,,Move,16/10/2016,17:41:00,16/10/2016,1/01/1900 17:43,Done,ED Trolley
+16,Emergency Department,65,16||7,8,,Move,16/10/2016,17:36:00,16/10/2016,1/01/1900 17:41,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,16/10/2016,17:41:00,16/10/2016,1/01/1900 18:25,Done,ED Trolley
+16,Emergency Department,75,16||15,8,,Move,16/10/2016,17:39:00,16/10/2016,1/01/1900 20:22,Done,ED Trolley
+4,Short Stay Unit,69,4||3,5,,Booking,16/10/2016,20:18:00,16/10/2016,1/01/1900 20:22,Done,General Bed
+16,Emergency Department,87,16||39,8,,Move,16/10/2016,18:03:00,16/10/2016,1/01/1900 18:38,Done,ED Trolley
+16,Emergency Department,79,16||23,8,,Move,16/10/2016,17:44:00,16/10/2016,1/01/1900 21:48,Done,ED Trolley
+16,Emergency Department,82,16||29,8,,Move,16/10/2016,18:10:00,16/10/2016,1/01/1900 18:45,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,16/10/2016,18:49:00,16/10/2016,1/01/1900 18:51,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,16/10/2016,18:51:00,16/10/2016,1/01/1900 18:56,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,16/10/2016,18:56:00,16/10/2016,1/01/1900 18:59,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,16/10/2016,18:59:00,16/10/2016,1/01/1900 21:39,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,16/10/2016,19:16:00,16/10/2016,1/01/1900 19:34,Done,ED Trolley
+16,Emergency Department,85,16||35,8,,Move,16/10/2016,19:21:00,16/10/2016,1/01/1900 20:37,Done,ED Trolley
+5,Day Surgery Area,93,5||9,5,,Move,19/10/2016,7:00:00,19/10/2016,1/01/1900 9:55,Done,General Bed
+11,W3 - Medical / Surgical Ward,41,11||19,5,5/11/2021,Move,17/10/2016,2:44:00,27/10/2016,1/01/1900 9:30,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,16/10/2016,19:42:00,16/10/2016,1/01/1900 20:12,Done,ED Trolley
+4,Short Stay Unit,69,4||3,5,,Booking,16/10/2016,17:35:00,16/10/2016,1/01/1900 20:25,Done,General Bed
+16,Emergency Department,75,16||15,8,,Move,16/10/2016,20:23:00,16/10/2016,1/01/1900 20:22,Done,ED Trolley
+4,Short Stay Unit,69,4||3,5,,Move,16/10/2016,20:23:00,16/10/2016,1/01/1900 20:26,Done,General Bed
+4,Short Stay Unit,70,4||5,5,,Move,16/10/2016,20:26:00,17/10/2016,1/01/1900 1:43,Done,General Bed
+4,Short Stay Unit,69,4||3,5,,Move,17/10/2016,1:43:00,17/10/2016,1/01/1900 11:00,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,16/10/2016,21:17:00,16/10/2016,1/01/1900 21:43,Done,ED Trolley
+16,Emergency Department,82,16||29,8,,Move,16/10/2016,21:13:00,17/10/2016,1/01/1900 5:45,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,5:45:00,17/10/2016,1/01/1900 7:57,Done,ED Trolley
+16,Emergency Department,63,16||3,8,,Move,17/10/2016,7:57:00,17/10/2016,1/01/1900 9:23,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,9:23:00,17/10/2016,1/01/1900 11:38,Done,ED Trolley
+4,Short Stay Unit,72,4||9,5,,Booking,17/10/2016,10:23:00,17/10/2016,1/01/1900 11:38,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,16/10/2016,21:35:00,16/10/2016,1/01/1900 21:48,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,16/10/2016,21:48:00,16/10/2016,1/01/1900 21:51,Done,ED Trolley
+16,Emergency Department,80,16||25,8,,Move,16/10/2016,21:51:00,17/10/2016,1/01/1900 11:25,Done,ED Trolley
+16,Emergency Department,75,16||15,8,,Move,16/10/2016,21:32:00,17/10/2016,1/01/1900 5:12,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,16/10/2016,21:40:00,17/10/2016,1/01/1900 3:19,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,16/10/2016,21:52:00,16/10/2016,1/01/1900 23:26,Done,ED Trolley
+16,Emergency Department,76,16||17,8,,Move,16/10/2016,22:44:00,17/10/2016,1/01/1900 0:14,Done,ED Trolley
+16,Emergency Department,79,16||23,8,,Move,17/10/2016,0:14:00,17/10/2016,1/01/1900 0:17,Done,ED Trolley
+16,Emergency Department,83,16||31,8,,Move,16/10/2016,23:08:00,17/10/2016,1/01/1900 2:18,Done,ED Trolley
+16,Emergency Department,80,16||25,8,,Move,17/10/2016,11:56:00,17/10/2016,1/01/1900 11:25,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,23,10||21,5,,Move,17/10/2016,11:56:00,17/10/2016,1/01/1900 11:56,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,30,10||43,5,5/11/2021,Move,17/10/2016,12:03:00,17/10/2016,1/01/1900 14:33,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||53,5,5/11/2021,Move,17/10/2016,14:33:00,18/10/2016,1/01/1900 14:05,Done,General Bed
+16,Emergency Department,81,16||27,8,,Move,16/10/2016,23:39:00,17/10/2016,1/01/1900 1:13,Done,ED Trolley
+16,Emergency Department,84,16||33,8,,Move,16/10/2016,23:54:00,17/10/2016,1/01/1900 1:53,Done,ED Trolley
+16,Emergency Department,84,16||33,8,,Move,17/10/2016,2:20:00,17/10/2016,1/01/1900 20:34,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,1:15:00,17/10/2016,1/01/1900 1:51,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,17/10/2016,3:40:00,17/10/2016,1/01/1900 4:16,Done,ED Trolley
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,0:16:00,17/10/2016,1/01/1900 2:30,Done,ED Trolley
+4,Short Stay Unit,70,4||5,5,,Booking,17/10/2016,1:38:00,17/10/2016,1/01/1900 2:30,Done,General Bed
+16,Emergency Department,79,16||23,8,,Move,17/10/2016,1:11:00,17/10/2016,1/01/1900 1:51,Done,ED Trolley
+4,Short Stay Unit,72,4||9,5,,Booking,16/10/2016,21:08:00,17/10/2016,1/01/1900 11:39,Done,General Bed
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,11:39:00,17/10/2016,1/01/1900 12:00,Done,ED Trolley
+4,Short Stay Unit,72,4||9,5,,Move,17/10/2016,11:39:00,13/11/2016,1/01/1900 20:28,Rejected,General Bed
+16,Emergency Department,75,16||15,8,,Move,17/10/2016,5:28:00,17/10/2016,1/01/1900 5:12,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,32,10||45,5,5/11/2021,Move,17/10/2016,5:28:00,17/10/2016,1/01/1900 9:25,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||25,5,,Move,17/10/2016,9:25:00,27/10/2016,1/01/1900 8:36,Done,General Bed
+4,Short Stay Unit,70,4||5,5,,Booking,17/10/2016,1:38:00,17/10/2016,1/01/1900 2:36,Done,General Bed
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,2:31:00,17/10/2016,1/01/1900 2:30,Done,ED Trolley
+4,Short Stay Unit,70,4||5,5,,Move,17/10/2016,2:31:00,17/10/2016,1/01/1900 8:50,Done,General Bed
+16,Emergency Department,78,16||21,8,,Move,17/10/2016,2:11:00,17/10/2016,1/01/1900 4:55,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,17/10/2016,2:25:00,17/10/2016,1/01/1900 3:20,Done,ED Trolley
+16,Emergency Department,79,16||23,8,,Move,17/10/2016,3:50:00,17/10/2016,1/01/1900 6:01,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,3:54:00,17/10/2016,1/01/1900 5:44,Done,ED Trolley
+16,Emergency Department,83,16||31,8,,Move,17/10/2016,5:44:00,17/10/2016,1/01/1900 16:47,Done,ED Trolley
+16,Emergency Department,75,16||15,8,,Move,17/10/2016,5:29:00,17/10/2016,1/01/1900 6:02,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Booking,18/10/2016,8:00:00,18/10/2016,1/01/1900 15:47,Requested,General Bed
+5,Day Surgery Area,93,5||5,5,,Booking,18/10/2016,8:00:00,18/10/2016,1/01/1900 15:48,Requested,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,18/10/2016,13:00:00,18/10/2016,1/01/1900 20:35,Requested,General Bed
+16,Emergency Department,82,16||29,8,,Move,17/10/2016,7:02:00,17/10/2016,1/01/1900 9:00,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Booking,19/10/2016,13:00:00,19/10/2016,1/01/1900 19:40,Requested,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,19/10/2016,13:00:00,19/10/2016,1/01/1900 15:45,Requested,General Bed
+9,W1 - Maternity Ward,4,9||9,5,,Move,18/10/2016,6:50:00,19/10/2016,1/01/1900 16:24,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,19/10/2016,13:00:00,19/10/2016,1/01/1900 18:45,Requested,General Bed
+16,Emergency Department,79,16||23,8,,Move,17/10/2016,6:56:00,17/10/2016,1/01/1900 7:36,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Booking,19/10/2016,13:00:00,19/10/2016,1/01/1900 19:55,Requested,General Bed
+9,W1 - Maternity Ward,4,9||9,5,,Move,20/10/2016,8:04:00,24/10/2016,1/01/1900 10:15,Done,General Bed
+9,W1 - Maternity Ward,13,9||33,2,28/06/2019,Move,17/10/2016,9:58:00,1/05/2017,1/01/1900 11:13,Rejected,Delivery Bed
+5,Day Surgery Area,93,5||7,5,,Booking,19/10/2016,8:00:00,19/10/2016,1/01/1900 14:45,Requested,General Bed
+9,W1 - Maternity Ward,1,9||1,5,,Move,27/10/2016,14:15:00,28/10/2016,1/01/1900 10:30,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||5,5,,Move,19/10/2016,18:18:00,19/10/2016,1/01/1900 18:23,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||9,5,,Move,19/10/2016,18:23:00,20/10/2016,1/01/1900 16:00,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,19/10/2016,8:00:00,19/10/2016,1/01/1900 14:55,Requested,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,19/10/2016,8:00:00,19/10/2016,1/01/1900 14:55,Requested,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,19/10/2016,8:00:00,19/10/2016,1/01/1900 10:40,Requested,General Bed
+5,Day Surgery Area,93,5||3,5,,Booking,19/10/2016,13:00:00,19/10/2016,1/01/1900 17:00,Requested,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,19/10/2016,13:00:00,19/10/2016,1/01/1900 18:42,Requested,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,19/10/2016,13:00:00,19/10/2016,1/01/1900 19:15,Requested,General Bed
+16,Emergency Department,75,16||15,8,,Move,17/10/2016,8:08:00,17/10/2016,1/01/1900 17:56,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,8:22:00,17/10/2016,1/01/1900 8:45,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Booking,20/10/2016,13:00:00,20/10/2016,1/01/1900 19:05,Requested,General Bed
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,8:35:00,17/10/2016,1/01/1900 8:50,Done,ED Trolley
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,8:52:00,17/10/2016,1/01/1900 15:43,Done,ED Trolley
+16,Emergency Department,79,16||23,8,,Move,17/10/2016,8:57:00,17/10/2016,1/01/1900 8:58,Done,ED Trolley
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,8:58:00,17/10/2016,1/01/1900 9:59,Done,ED Trolley
+16,Emergency Department,67,16||11,8,,Move,17/10/2016,8:59:00,17/10/2016,1/01/1900 8:59,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,8:59:00,17/10/2016,1/01/1900 9:00,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,9:04:00,17/10/2016,1/01/1900 10:01,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,17/10/2016,9:14:00,17/10/2016,1/01/1900 12:21,Done,ED Trolley
+13,Oncology Ward,53,13||13,1,,Move,17/10/2016,8:40:00,17/10/2016,1/01/1900 10:01,Done,Chair
+8,Intensive Care Unit,56,8||1,6,,Move,15/10/2016,1:01:00,19/10/2016,1/01/1900 11:47,Done,Intensive Care Unit Bed
+16,Emergency Department,79,16||23,8,,Move,17/10/2016,9:25:00,17/10/2016,1/01/1900 10:39,Done,ED Trolley
+13,Oncology Ward,53,13||1,1,,Move,17/10/2016,11:46:00,17/10/2016,1/01/1900 12:10,Done,Chair
+5,Day Surgery Area,93,5||7,5,,Booking,18/10/2016,8:00:00,18/10/2016,1/01/1900 13:45,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||63,5,5/11/2021,Move,25/10/2016,2:35:00,25/10/2016,1/01/1900 11:29,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,31/10/2016,15:57:00,31/10/2016,1/01/1900 16:39,Done,General Bed
+6,Dialysis Ward,55,6||5,1,,Move,17/10/2016,14:03:00,17/10/2016,1/01/1900 14:09,Rejected,Chair
+6,Dialysis Ward,55,6||5,1,,Move,17/10/2016,8:30:00,17/10/2016,1/01/1900 13:30,Done,Chair
+5,Day Surgery Area,93,5||1,5,,Booking,24/10/2016,13:00:00,24/10/2016,1/01/1900 15:30,Requested,General Bed
+13,Oncology Ward,53,13||13,1,,Move,17/10/2016,10:00:00,17/10/2016,1/01/1900 10:30,Done,Chair
+6,Dialysis Ward,55,6||11,1,,Move,17/10/2016,14:04:00,17/10/2016,1/01/1900 14:09,Rejected,Chair
+6,Dialysis Ward,55,6||11,1,,Move,17/10/2016,9:15:00,17/10/2016,1/01/1900 13:30,Done,Chair
+6,Dialysis Ward,55,6||17,1,,Move,17/10/2016,14:04:00,17/10/2016,1/01/1900 14:10,Rejected,Chair
+6,Dialysis Ward,55,6||17,1,,Move,17/10/2016,9:30:00,17/10/2016,1/01/1900 13:30,Done,Chair
+6,Dialysis Ward,55,6||3,1,,Move,17/10/2016,14:03:00,17/10/2016,1/01/1900 14:09,Rejected,Chair
+6,Dialysis Ward,55,6||3,1,,Move,17/10/2016,8:00:00,17/10/2016,1/01/1900 13:30,Done,Chair
+5,Day Surgery Area,93,5||3,5,,Move,31/10/2016,14:36:00,31/10/2016,1/01/1900 16:10,Done,General Bed
+6,Dialysis Ward,55,6||1,1,,Move,17/10/2016,14:03:00,17/10/2016,1/01/1900 14:08,Rejected,Chair
+6,Dialysis Ward,55,6||1,1,,Move,17/10/2016,7:45:00,17/10/2016,1/01/1900 13:30,Done,Chair
+6,Dialysis Ward,55,6||15,1,,Move,17/10/2016,14:04:00,17/10/2016,1/01/1900 14:10,Rejected,Chair
+6,Dialysis Ward,55,6||15,1,,Move,17/10/2016,9:30:00,17/10/2016,1/01/1900 13:30,Done,Chair
+6,Dialysis Ward,55,6||7,1,,Move,17/10/2016,14:03:00,17/10/2016,1/01/1900 14:09,Rejected,Chair
+6,Dialysis Ward,55,6||7,1,,Move,17/10/2016,8:00:00,17/10/2016,1/01/1900 13:30,Done,Chair
+5,Day Surgery Area,93,5||7,5,,Booking,24/10/2016,13:00:00,24/10/2016,1/01/1900 16:17,Requested,General Bed
+6,Dialysis Ward,55,6||9,1,,Move,17/10/2016,14:03:00,17/10/2016,1/01/1900 14:09,Rejected,Chair
+6,Dialysis Ward,55,6||9,1,,Move,17/10/2016,8:30:00,17/10/2016,1/01/1900 13:30,Done,Chair
+16,Emergency Department,78,16||21,8,,Move,17/10/2016,9:39:00,17/10/2016,1/01/1900 20:41,Done,ED Trolley
+13,Oncology Ward,53,13||3,1,,Move,17/10/2016,11:47:00,17/10/2016,1/01/1900 13:45,Done,Chair
+5,Day Surgery Area,93,5||7,5,,Move,24/10/2016,13:00:00,24/10/2016,1/01/1900 17:48,Done,General Bed
+13,Oncology Ward,53,13||7,1,,Move,17/10/2016,11:47:00,17/10/2016,1/01/1900 11:48,Done,Chair
+13,Oncology Ward,53,13||13,1,,Move,17/10/2016,10:30:00,17/10/2016,1/01/1900 11:15,Done,Chair
+5,Day Surgery Area,93,5||5,5,,Move,31/10/2016,17:24:00,31/10/2016,1/01/1900 18:24,Done,General Bed
+13,Oncology Ward,53,13||13,1,,Move,17/10/2016,11:00:00,17/10/2016,1/01/1900 11:30,Done,Chair
+5,Day Surgery Area,93,5||15,5,,Move,11/10/2016,8:00:00,11/10/2016,1/01/1900 14:44,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||7,5,,Move,11/10/2016,14:44:00,11/11/2016,1/01/1900 13:03,Done,General Bed
+8,Intensive Care Unit,58,8||5,6,,Move,11/11/2016,13:07:00,11/12/2016,1/01/1900 14:20,Done,Intensive Care Unit Bed
+5,Day Surgery Area,93,5||3,5,,Move,31/10/2016,18:02:00,31/10/2016,1/01/1900 18:43,Done,General Bed
+13,Oncology Ward,53,13||5,1,,Move,17/10/2016,12:02:00,17/10/2016,1/01/1900 12:45,Done,Chair
+13,Oncology Ward,53,13||13,1,,Move,17/10/2016,11:30:00,17/10/2016,1/01/1900 12:00,Done,Chair
+13,Oncology Ward,53,13||1,1,,Move,17/10/2016,13:00:00,17/10/2016,1/01/1900 17:50,Done,Chair
+13,Oncology Ward,53,13||13,1,,Move,17/10/2016,12:30:00,17/10/2016,1/01/1900 13:00,Done,Chair
+13,Oncology Ward,53,13||5,1,,Move,17/10/2016,13:00:00,17/10/2016,1/01/1900 14:52,Done,Chair
+5,Day Surgery Area,93,5||3,5,,Move,24/10/2016,13:20:00,24/10/2016,1/01/1900 13:50,Done,General Bed
+13,Oncology Ward,53,13||3,1,,Move,17/10/2016,15:10:00,17/10/2016,1/01/1900 16:30,Done,Chair
+13,Oncology Ward,53,13||11,1,,Move,17/10/2016,14:30:00,17/10/2016,1/01/1900 15:28,Done,Chair
+16,Emergency Department,82,16||29,8,,Move,17/10/2016,10:19:00,17/10/2016,1/01/1900 11:49,Done,ED Trolley
+16,Emergency Department,84,16||33,8,,Move,17/10/2016,21:11:00,17/10/2016,1/01/1900 20:34,Done,ED Trolley
+11,W3 - Medical / Surgical Ward,49,11||71,5,5/11/2021,Move,17/10/2016,21:11:00,18/10/2016,1/01/1900 14:53,Done,General Bed
+16,Emergency Department,75,16||15,8,,Move,17/10/2016,18:12:00,17/10/2016,1/01/1900 17:56,Done,ED Trolley
+11,W3 - Medical / Surgical Ward,48,11||67,5,5/11/2021,Move,17/10/2016,18:12:00,19/10/2016,1/01/1900 8:25,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||36,5,5/11/2021,Move,19/10/2016,8:25:00,19/10/2016,1/01/1900 15:31,Done,General Bed
+5,Day Surgery Area,93,5||1,5,,Move,24/10/2016,11:10:00,24/10/2016,1/01/1900 15:58,Done,General Bed
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,8:41:00,17/10/2016,1/01/1900 15:43,Rejected,ED Trolley
+5,Day Surgery Area,93,5||9,5,,Move,27/10/2016,8:00:00,27/10/2016,1/01/1900 14:55,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,11:02:00,17/10/2016,1/01/1900 11:29,Done,ED Trolley
+16,Emergency Department,83,16||31,8,,Move,17/10/2016,16:48:00,17/10/2016,1/01/1900 16:47,Done,ED Trolley
+11,W3 - Medical / Surgical Ward,48,11||65,5,5/11/2021,Move,17/10/2016,17:19:00,18/10/2016,1/01/1900 16:43,Done,General Bed
+16,Emergency Department,79,16||23,8,,Move,17/10/2016,10:50:00,17/10/2016,1/01/1900 12:55,Done,ED Trolley
+5,Day Surgery Area,93,5||9,5,,Booking,20/10/2016,8:00:00,20/10/2016,1/01/1900 11:38,Requested,General Bed
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,12:21:00,17/10/2016,1/01/1900 12:29,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,11:39:00,17/10/2016,1/01/1900 13:14,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,11/07/2016,14:53:00,11/07/2016,1/01/1900 16:14,Done,General Bed
+11,W3 - Medical / Surgical Ward,46,11||53,5,5/11/2021,Move,18/10/2016,15:20:00,19/10/2016,1/01/1900 16:03,Done,General Bed
+11,W3 - Medical / Surgical Ward,43,11||36,5,5/11/2021,Move,19/10/2016,16:03:00,20/10/2016,1/01/1900 11:48,Done,General Bed
+5,Day Surgery Area,93,5||9,5,,Move,31/10/2016,15:25:00,31/10/2016,1/01/1900 15:53,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,20/10/2016,8:00:00,20/10/2016,1/01/1900 13:20,Requested,General Bed
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,11:33:00,17/10/2016,1/01/1900 12:08,Done,ED Trolley
+16,Emergency Department,62,16||1,8,,Move,17/10/2016,11:39:00,17/10/2016,1/01/1900 16:30,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,17/10/2016,16:30:00,17/10/2016,1/01/1900 17:58,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,24/10/2016,16:20:00,24/10/2016,1/01/1900 17:05,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,12:22:00,17/10/2016,1/01/1900 12:54,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Booking,20/10/2016,8:00:00,20/10/2016,1/01/1900 10:25,Requested,General Bed
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,12:34:00,17/10/2016,1/01/1900 13:03,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Move,31/10/2016,17:08:00,31/10/2016,1/01/1900 17:32,Done,General Bed
+16,Emergency Department,82,16||29,8,,Move,17/10/2016,12:10:00,17/10/2016,1/01/1900 16:42,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,13:29:00,17/10/2016,1/01/1900 13:41,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,24/10/2016,16:12:00,24/10/2016,1/01/1900 17:20,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,24/10/2016,15:13:00,24/10/2016,1/01/1900 16:26,Done,General Bed
+16,Emergency Department,65,16||7,8,,Move,17/10/2016,13:28:00,17/10/2016,1/01/1900 14:07,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Booking,20/10/2016,8:00:00,20/10/2016,1/01/1900 11:36,Requested,General Bed
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,13:08:00,17/10/2016,1/01/1900 14:46,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Move,11/03/2016,9:35:00,11/03/2016,1/01/1900 10:40,Done,General Bed
+16,Emergency Department,77,16||19,8,,Move,17/10/2016,13:51:00,17/10/2016,1/01/1900 13:52,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,24/10/2016,16:45:00,24/10/2016,1/01/1900 17:49,Done,General Bed
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,12:20:00,17/10/2016,1/01/1900 16:10,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,24/10/2016,13:55:00,24/10/2016,1/01/1900 14:30,Done,General Bed
+12,W5 - Mental Health Ward,21,12||7,5,,Move,17/10/2016,12:00:00,19/10/2016,1/01/1900 13:40,Done,General Bed
+5,Day Surgery Area,93,5||5,5,,Move,31/10/2016,15:41:00,31/10/2016,1/01/1900 16:49,Done,General Bed
+16,Emergency Department,80,16||25,8,,Move,17/10/2016,12:53:00,17/10/2016,1/01/1900 16:51,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Booking,24/10/2016,8:00:00,24/10/2016,1/01/1900 9:50,Requested,General Bed
+5,Day Surgery Area,93,5||1,5,,Move,25/10/2016,9:45:00,25/10/2016,1/01/1900 12:15,Done,General Bed
+16,Emergency Department,79,16||23,8,,Move,17/10/2016,13:35:00,17/10/2016,1/01/1900 14:50,Done,ED Trolley
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,14:50:00,17/10/2016,1/01/1900 14:50,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,17/10/2016,14:50:00,17/10/2016,1/01/1900 16:29,Done,ED Trolley
+16,Emergency Department,63,16||3,8,,Move,17/10/2016,16:29:00,17/10/2016,1/01/1900 17:43,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Move,21/10/2016,10:35:00,21/10/2016,1/01/1900 12:30,Done,General Bed
+16,Emergency Department,77,16||19,8,,Move,17/10/2016,13:05:00,17/10/2016,1/01/1900 13:49,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,13:50:00,17/10/2016,1/01/1900 14:50,Done,ED Trolley
+13,Oncology Ward,53,13||9,1,,Move,17/10/2016,12:59:00,17/10/2016,1/01/1900 17:30,Done,Chair
+9,W1 - Maternity Ward,4,9||9,5,,Move,14/02/2017,20:39:00,16/02/2017,1/01/1900 10:19,Done,General Bed
+9,W1 - Maternity Ward,4,9||9,5,,Move,16/02/2017,11:41:00,18/02/2017,1/01/1900 15:00,Done,General Bed
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,14:06:00,17/10/2016,1/01/1900 14:10,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,17/10/2016,14:22:00,17/10/2016,1/01/1900 14:50,Done,ED Trolley
+16,Emergency Department,79,16||23,8,,Move,17/10/2016,14:50:00,17/10/2016,1/01/1900 23:12,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,14:51:00,17/10/2016,1/01/1900 17:11,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,17/10/2016,18:28:00,17/10/2016,1/01/1900 17:58,Done,ED Trolley
+8,Intensive Care Unit,57,8||3,6,,Move,17/10/2016,18:28:00,18/10/2016,1/01/1900 21:04,Done,Intensive Care Unit Bed
+11,W3 - Medical / Surgical Ward,42,11||23,5,5/11/2021,Move,18/10/2016,21:04:00,26/10/2016,1/01/1900 12:36,Done,General Bed
+8,Intensive Care Unit,59,8||7,6,,Move,21/10/2016,16:23:00,22/10/2016,1/01/1900 11:00,Done,Intensive Care Unit Bed
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,14:10:00,17/10/2016,1/01/1900 19:26,Done,ED Trolley
+5,Day Surgery Area,93,5||9,5,,Move,26/10/2016,9:07:00,26/10/2016,1/01/1900 10:05,Done,General Bed
+5,Day Surgery Area,93,5||13,5,,Move,26/10/2016,9:43:00,26/10/2016,1/01/1900 10:41,Done,General Bed
+5,Day Surgery Area,93,5||11,5,,Move,26/10/2016,12:08:00,26/10/2016,1/01/1900 12:09,Done,General Bed
+5,Day Surgery Area,93,5||9,5,,Move,26/10/2016,12:08:00,26/10/2016,1/01/1900 12:40,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,21/10/2016,10:04:00,21/10/2016,1/01/1900 13:00,Done,General Bed
+16,Emergency Department,66,16||9,8,,Move,17/10/2016,16:21:00,17/10/2016,1/01/1900 16:40,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,17/10/2016,15:14:00,17/10/2016,1/01/1900 15:30,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,17/10/2016,15:30:00,17/10/2016,1/01/1900 15:30,Done,ED Trolley
+16,Emergency Department,65,16||7,8,,Move,17/10/2016,15:30:00,17/10/2016,1/01/1900 15:50,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Move,26/10/2016,15:53:00,26/10/2016,1/01/1900 23:48,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||31,5,,Booking,26/10/2016,21:13:00,26/10/2016,1/01/1900 23:48,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||31,5,,Move,26/10/2016,23:48:00,27/10/2016,1/01/1900 11:40,Done,General Bed
+16,Emergency Department,66,16||9,8,,Move,17/10/2016,15:48:00,17/10/2016,1/01/1900 15:51,Done,ED Trolley
+16,Emergency Department,65,16||7,8,,Move,17/10/2016,15:51:00,17/10/2016,1/01/1900 16:54,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Move,21/10/2016,11:44:00,21/10/2016,1/01/1900 14:30,Done,General Bed
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,15:59:00,17/10/2016,1/01/1900 16:34,Done,ED Trolley
+6,Dialysis Ward,55,6||3,1,,Move,17/10/2016,14:33:00,17/10/2016,1/01/1900 18:45,Done,Chair
+5,Day Surgery Area,93,5||7,5,,Move,21/10/2016,8:00:00,21/10/2016,1/01/1900 14:10,Done,General Bed
+6,Dialysis Ward,55,6||7,1,,Move,17/10/2016,14:33:00,17/10/2016,1/01/1900 19:30,Done,Chair
+5,Day Surgery Area,93,5||7,5,,Booking,26/10/2016,13:00:00,26/10/2016,1/01/1900 19:56,Requested,General Bed
+6,Dialysis Ward,55,6||5,1,,Move,17/10/2016,14:33:00,17/10/2016,1/01/1900 19:30,Done,Chair
+6,Dialysis Ward,55,6||1,1,,Move,17/10/2016,14:33:00,17/10/2016,1/01/1900 19:15,Done,Chair
+5,Day Surgery Area,93,5||9,5,,Move,26/10/2016,13:33:00,26/10/2016,1/01/1900 13:52,Done,General Bed
+6,Dialysis Ward,55,6||15,1,,Move,17/10/2016,14:33:00,17/10/2016,1/01/1900 17:20,Done,Chair
+6,Dialysis Ward,55,6||13,1,,Move,17/10/2016,14:34:00,17/10/2016,1/01/1900 18:45,Done,Chair
+6,Dialysis Ward,55,6||9,1,,Move,17/10/2016,14:33:00,17/10/2016,1/01/1900 18:30,Done,Chair
+6,Dialysis Ward,55,6||17,1,,Move,17/10/2016,14:33:00,17/10/2016,1/01/1900 19:00,Done,Chair
+6,Dialysis Ward,55,6||11,1,,Move,17/10/2016,14:33:00,17/10/2016,1/01/1900 18:15,Done,Chair
+16,Emergency Department,78,16||21,8,,Move,17/10/2016,20:42:00,17/10/2016,1/01/1900 20:42,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||55,5,5/11/2021,Move,17/10/2016,20:42:00,18/10/2016,1/01/1900 14:40,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,26/10/2016,13:00:00,26/10/2016,1/01/1900 20:40,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,14:53:00,17/10/2016,1/01/1900 15:08,Done,ED Trolley
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,15:09:00,17/10/2016,1/01/1900 16:41,Done,ED Trolley
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,16:41:00,17/10/2016,1/01/1900 16:56,Done,ED Trolley
+11,W3 - Medical / Surgical Ward,41,11||15,5,5/11/2021,Move,17/10/2016,14:42:00,20/10/2016,1/01/1900 10:04,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||31,5,,Move,18/10/2016,8:00:00,19/10/2016,1/01/1900 11:06,Done,General Bed
+9,W1 - Maternity Ward,6,9||13,5,,Move,17/10/2016,15:32:00,18/10/2016,1/01/1900 5:54,Done,General Bed
+9,W1 - Maternity Ward,13,9||33,2,28/06/2019,Move,18/10/2016,5:54:00,18/10/2016,1/01/1900 11:43,Done,Delivery Bed
+9,W1 - Maternity Ward,6,9||13,5,,Move,18/10/2016,11:43:00,21/10/2016,1/01/1900 11:40,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,30,10||43,5,5/11/2021,Move,17/10/2016,19:27:00,19/10/2016,1/01/1900 14:33,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,26,10||33,5,5/11/2021,Move,19/10/2016,14:33:00,20/10/2016,1/01/1900 11:50,Done,General Bed
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,16:18:00,17/10/2016,1/01/1900 18:31,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Move,21/10/2016,8:00:00,21/10/2016,1/01/1900 14:25,Done,General Bed
+16,Emergency Department,65,16||7,8,,Move,17/10/2016,15:20:00,17/10/2016,1/01/1900 15:30,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,17/10/2016,15:30:00,17/10/2016,1/01/1900 16:20,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Move,26/10/2016,16:07:00,26/10/2016,1/01/1900 17:39,Done,General Bed
+16,Emergency Department,66,16||9,8,,Move,17/10/2016,16:55:00,17/10/2016,1/01/1900 17:02,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Move,28/10/2016,13:00:00,28/10/2016,1/01/1900 17:56,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,26/10/2016,13:00:00,26/10/2016,1/01/1900 19:20,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,28/10/2016,13:00:00,28/10/2016,1/01/1900 16:05,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,17:30:00,17/10/2016,1/01/1900 19:57,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Booking,28/10/2016,13:00:00,28/10/2016,1/01/1900 14:10,Requested,General Bed
+16,Emergency Department,66,16||9,8,,Move,17/10/2016,18:14:00,17/10/2016,1/01/1900 19:13,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Move,31/10/2016,14:04:00,31/10/2016,1/01/1900 14:04,Done,General Bed
+16,Emergency Department,66,16||9,8,,Move,17/10/2016,21:32:00,17/10/2016,1/01/1900 21:34,Done,ED Trolley
+16,Emergency Department,83,16||31,8,,Move,17/10/2016,17:09:00,17/10/2016,1/01/1900 17:57,Done,ED Trolley
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,17:16:00,17/10/2016,1/01/1900 17:17,Done,ED Trolley
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,17:17:00,17/10/2016,1/01/1900 19:55,Done,ED Trolley
+5,Day Surgery Area,93,5||9,5,,Move,14/11/2016,16:15:00,14/11/2016,1/01/1900 17:12,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,16:50:00,17/10/2016,1/01/1900 19:29,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,19:29:00,18/10/2016,1/01/1900 2:52,Done,ED Trolley
+16,Emergency Department,75,16||15,8,,Move,17/10/2016,18:16:00,17/10/2016,1/01/1900 20:45,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Move,14/11/2016,16:56:00,14/11/2016,1/01/1900 18:16,Done,General Bed
+16,Emergency Department,80,16||25,8,,Move,17/10/2016,16:58:00,18/10/2016,1/01/1900 1:10,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Move,11/07/2016,14:17:00,11/07/2016,1/01/1900 15:26,Done,General Bed
+4,Short Stay Unit,70,4||5,5,,Move,17/10/2016,16:46:00,17/10/2016,1/01/1900 19:39,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,21/11/2016,13:27:00,21/11/2016,1/01/1900 14:03,Done,General Bed
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,19:21:00,17/10/2016,1/01/1900 19:27,Done,ED Trolley
+16,Emergency Department,66,16||9,8,,Move,17/10/2016,19:27:00,17/10/2016,1/01/1900 20:11,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,17/10/2016,20:46:00,17/10/2016,1/01/1900 21:29,Done,ED Trolley
+16,Emergency Department,84,16||33,8,,Move,17/10/2016,21:39:00,18/10/2016,1/01/1900 1:00,Done,ED Trolley
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,21:43:00,17/10/2016,1/01/1900 22:03,Done,ED Trolley
+16,Emergency Department,82,16||29,8,,Move,17/10/2016,17:50:00,17/10/2016,1/01/1900 21:32,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,21:58:00,17/10/2016,1/01/1900 22:06,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,21:52:00,17/10/2016,1/01/1900 22:37,Done,ED Trolley
+16,Emergency Department,83,16||31,8,,Move,17/10/2016,18:06:00,18/10/2016,1/01/1900 3:55,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,17/10/2016,18:57:00,17/10/2016,1/01/1900 19:12,Done,ED Trolley
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,22:11:00,17/10/2016,1/01/1900 22:14,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,17/10/2016,21:33:00,17/10/2016,1/01/1900 22:04,Done,ED Trolley
+9,W1 - Maternity Ward,3,9||7,5,,Move,17/10/2016,17:57:00,20/10/2016,1/01/1900 8:08,Done,General Bed
+9,W1 - Maternity Ward,13,9||33,2,28/06/2019,Move,20/10/2016,8:08:00,20/10/2016,1/01/1900 12:13,Done,Delivery Bed
+9,W1 - Maternity Ward,3,9||7,5,,Move,20/10/2016,12:13:00,22/10/2016,1/01/1900 20:01,Done,General Bed
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,19:38:00,17/10/2016,1/01/1900 20:03,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,20:04:00,17/10/2016,1/01/1900 21:07,Done,ED Trolley
+16,Emergency Department,78,16||21,8,,Move,17/10/2016,21:07:00,17/10/2016,1/01/1900 21:09,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,22:14:00,17/10/2016,1/01/1900 22:18,Done,ED Trolley
+16,Emergency Department,85,16||35,8,,Move,17/10/2016,22:18:00,17/10/2016,1/01/1900 23:35,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,17/10/2016,19:07:00,17/10/2016,1/01/1900 21:09,Done,ED Trolley
+9,W1 - Maternity Ward,6,9||13,5,,Booking,11/12/2016,7:56:00,11/12/2016,1/01/1900 7:57,Done,General Bed
+9,W1 - Maternity Ward,6,9||13,5,,Booking,11/12/2016,7:57:00,13/11/2016,1/01/1900 10:42,Rejected,General Bed
+16,Emergency Department,77,16||19,8,,Move,17/10/2016,19:39:00,18/10/2016,1/01/1900 6:38,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,18/10/2016,6:38:00,18/10/2016,1/01/1900 13:30,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,22:27:00,17/10/2016,1/01/1900 23:10,Done,ED Trolley
+16,Emergency Department,75,16||15,8,,Move,17/10/2016,22:32:00,17/10/2016,1/01/1900 23:47,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,0:03:00,18/10/2016,1/01/1900 1:08,Done,ED Trolley
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,20:19:00,17/10/2016,1/01/1900 21:56,Done,ED Trolley
+16,Emergency Department,75,16||15,8,,Move,17/10/2016,21:09:00,17/10/2016,1/01/1900 21:33,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,17/10/2016,21:09:00,17/10/2016,1/01/1900 21:30,Done,ED Trolley
+16,Emergency Department,78,16||21,8,,Move,17/10/2016,21:30:00,18/10/2016,1/01/1900 9:19,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,17/10/2016,22:47:00,17/10/2016,1/01/1900 23:56,Done,ED Trolley
+16,Emergency Department,85,16||35,8,,Move,18/10/2016,0:02:00,18/10/2016,1/01/1900 1:12,Done,ED Trolley
+16,Emergency Department,82,16||29,8,,Move,17/10/2016,22:39:00,17/10/2016,1/01/1900 23:59,Done,ED Trolley
+16,Emergency Department,82,16||29,8,,Move,18/10/2016,0:10:00,18/10/2016,1/01/1900 1:40,Done,ED Trolley
+16,Emergency Department,76,16||17,8,,Move,17/10/2016,22:50:00,18/10/2016,1/01/1900 14:21,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,17/10/2016,23:55:00,18/10/2016,1/01/1900 1:34,Done,ED Trolley
+11,W3 - Medical / Surgical Ward,44,11||42,5,5/11/2021,Move,17/10/2016,23:16:00,18/10/2016,1/01/1900 23:23,Done,General Bed
+8,Intensive Care Unit,57,8||3,6,,Move,18/10/2016,23:23:00,19/10/2016,1/01/1900 13:00,Done,Intensive Care Unit Bed
+8,Intensive Care Unit,59,8||7,6,,Move,19/10/2016,16:25:00,21/10/2016,1/01/1900 0:09,Done,Intensive Care Unit Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||17,5,,Move,21/10/2016,0:09:00,21/10/2016,1/01/1900 0:20,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||11,5,,Move,21/10/2016,0:20:00,24/10/2016,1/01/1900 11:30,Done,General Bed
+16,Emergency Department,80,16||25,8,,Move,18/10/2016,1:33:00,18/10/2016,1/01/1900 2:30,Done,ED Trolley
+16,Emergency Department,75,16||15,8,,Move,18/10/2016,0:16:00,18/10/2016,1/01/1900 12:39,Done,ED Trolley
+9,W1 - Maternity Ward,8,9||31,5,,Move,18/10/2016,0:14:00,18/10/2016,1/01/1900 11:52,Done,General Bed
+9,W1 - Maternity Ward,7,9||17,5,,Move,18/10/2016,11:52:00,18/10/2016,1/01/1900 12:30,Done,General Bed
+16,Emergency Department,79,16||23,8,,Move,18/10/2016,1:02:00,18/10/2016,1/01/1900 18:03,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,32,10||45,5,5/11/2021,Move,18/10/2016,1:32:00,21/10/2016,1/01/1900 16:14,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||53,5,5/11/2021,Move,21/10/2016,16:14:00,29/10/2016,1/01/1900 16:01,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,25,10||31,5,,Move,29/10/2016,16:01:00,30/10/2016,1/01/1900 23:56,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||65,5,5/11/2021,Move,30/10/2016,23:56:00,11/02/2016,1/01/1900 18:05,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,2:24:00,18/10/2016,1/01/1900 3:44,Done,ED Trolley
+16,Emergency Department,82,16||29,8,,Move,18/10/2016,2:49:00,18/10/2016,1/01/1900 16:55,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,26,10||33,5,5/11/2021,Move,18/10/2016,2:53:00,18/10/2016,1/01/1900 23:27,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,32,10||47,5,5/11/2021,Move,18/10/2016,23:27:00,21/10/2016,1/01/1900 13:31,Done,General Bed
+9,W1 - Maternity Ward,12,9||29,2,28/06/2019,Move,18/10/2016,3:00:00,18/10/2016,1/01/1900 3:48,Done,Delivery Bed
+9,W1 - Maternity Ward,15,9||37,2,28/06/2019,Move,18/10/2016,3:48:00,18/10/2016,1/01/1900 11:53,Done,Delivery Bed
+9,W1 - Maternity Ward,8,9||21,5,,Move,18/10/2016,11:53:00,19/10/2016,1/01/1900 12:12,Done,General Bed
+9,W1 - Maternity Ward,1,9||1,5,,Move,19/10/2016,12:12:00,23/10/2016,1/01/1900 10:00,Done,General Bed
+11,W3 - Medical / Surgical Ward,39,11||3,5,5/11/2021,Move,18/10/2016,4:29:00,19/10/2016,1/01/1900 9:36,Done,General Bed
+11,W3 - Medical / Surgical Ward,44,11||42,5,5/11/2021,Move,19/10/2016,9:36:00,23/10/2016,1/01/1900 15:23,Done,General Bed
+16,Emergency Department,83,16||31,8,,Move,18/10/2016,4:32:00,18/10/2016,1/01/1900 13:59,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,18/10/2016,5:50:00,18/10/2016,1/01/1900 6:06,Done,ED Trolley
+16,Emergency Department,62,16||1,8,,Move,18/10/2016,6:06:00,18/10/2016,1/01/1900 8:51,Done,ED Trolley
+16,Emergency Department,80,16||25,8,,Move,18/10/2016,6:22:00,18/10/2016,1/01/1900 13:12,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,18/10/2016,5:34:00,18/10/2016,1/01/1900 5:36,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,18/10/2016,5:36:00,18/10/2016,1/01/1900 6:38,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,18/10/2016,6:38:00,18/10/2016,1/01/1900 8:25,Done,ED Trolley
+16,Emergency Department,85,16||35,8,,Move,18/10/2016,8:03:00,18/10/2016,1/01/1900 9:10,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,8:07:00,18/10/2016,1/01/1900 8:44,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,26/10/2016,16:32:00,26/10/2016,1/01/1900 17:06,Done,General Bed
+5,Day Surgery Area,93,5||9,5,,Move,26/10/2016,13:56:00,26/10/2016,1/01/1900 14:25,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,27/10/2016,12:05:00,27/10/2016,1/01/1900 13:43,Done,General Bed
+5,Day Surgery Area,93,5||1,5,,Move,21/10/2016,16:18:00,21/10/2016,1/01/1900 17:15,Done,General Bed
+5,Day Surgery Area,93,5||9,5,,Booking,27/10/2016,8:00:00,27/10/2016,1/01/1900 11:10,Requested,General Bed
+5,Day Surgery Area,93,5||9,5,,Move,21/10/2016,11:05:00,21/10/2016,1/01/1900 15:20,Done,General Bed
+5,Day Surgery Area,93,5||1,5,,Move,27/10/2016,12:17:00,27/10/2016,1/01/1900 12:59,Done,General Bed
+5,Day Surgery Area,93,5||5,5,,Booking,27/10/2016,8:00:00,27/10/2016,1/01/1900 10:30,Done,General Bed
+5,Day Surgery Area,93,5||1,5,,Move,17/11/2016,11:19:00,17/11/2016,1/01/1900 12:57,Done,General Bed
+4,Short Stay Unit,72,4||9,5,,Move,18/10/2016,8:28:00,18/10/2016,1/01/1900 9:16,Done,General Bed
+4,Short Stay Unit,70,4||5,5,,Move,18/10/2016,9:16:00,18/10/2016,1/01/1900 13:10,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,18/10/2016,11:21:00,18/10/2016,1/01/1900 13:41,Done,ED Trolley
+13,Oncology Ward,53,13||7,1,,Move,18/10/2016,10:30:00,18/10/2016,1/01/1900 11:30,Done,Chair
+5,Day Surgery Area,93,5||13,5,,Move,21/10/2016,12:37:00,21/10/2016,1/01/1900 13:55,Done,General Bed
+13,Oncology Ward,53,13||15,1,,Move,18/10/2016,9:00:00,18/10/2016,1/01/1900 10:00,Done,Chair
+13,Oncology Ward,53,13||5,1,,Move,18/10/2016,9:30:00,18/10/2016,1/01/1900 14:00,Done,Chair
+13,Oncology Ward,53,13||11,1,,Move,18/10/2016,9:30:00,18/10/2016,1/01/1900 13:15,Done,Chair
+13,Oncology Ward,53,13||13,1,,Move,18/10/2016,9:30:00,18/10/2016,1/01/1900 14:00,Done,Chair
+13,Oncology Ward,53,13||1,1,,Move,18/10/2016,11:40:00,18/10/2016,1/01/1900 14:00,Done,Chair
+9,W1 - Maternity Ward,14,9||35,2,28/06/2019,Move,18/10/2016,8:34:00,18/10/2016,1/01/1900 11:53,Done,Delivery Bed
+9,W1 - Maternity Ward,2,9||3,5,,Move,18/10/2016,11:53:00,21/10/2016,1/01/1900 11:20,Done,General Bed
+13,Oncology Ward,53,13||3,1,,Move,18/10/2016,10:30:00,18/10/2016,1/01/1900 12:50,Done,Chair
+5,Day Surgery Area,93,5||15,5,,Move,21/10/2016,12:37:00,21/10/2016,1/01/1900 13:50,Done,General Bed
+13,Oncology Ward,53,13||9,1,,Move,18/10/2016,11:31:00,18/10/2016,1/01/1900 15:00,Done,Chair
+13,Oncology Ward,53,13||15,1,,Move,18/10/2016,14:00:00,18/10/2016,1/01/1900 15:32,Done,Chair
+13,Oncology Ward,53,13||3,1,,Move,18/10/2016,14:33:00,18/10/2016,1/01/1900 16:36,Done,Chair
+13,Oncology Ward,53,13||11,1,,Move,18/10/2016,14:01:00,18/10/2016,1/01/1900 15:00,Done,Chair
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||61,5,5/11/2021,Move,27/10/2016,13:00:00,28/10/2016,1/01/1900 11:40,Done,General Bed
+6,Dialysis Ward,55,6||7,1,,Move,18/10/2016,8:15:00,18/10/2016,1/01/1900 13:34,Done,Chair
+6,Dialysis Ward,55,6||5,1,,Move,18/10/2016,8:15:00,18/10/2016,1/01/1900 13:35,Done,Chair
+11,W3 - Medical / Surgical Ward,48,11||69,5,5/11/2021,Move,25/10/2016,18:15:00,26/10/2016,1/01/1900 4:48,Done,General Bed
+11,W3 - Medical / Surgical Ward,48,11||69,5,5/11/2021,Move,26/10/2016,4:48:00,31/10/2016,1/01/1900 13:00,Done,General Bed
+5,Day Surgery Area,93,5||5,5,,Move,25/10/2016,13:00:00,25/10/2016,1/01/1900 19:00,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,27/10/2016,13:00:00,27/10/2016,1/01/1900 18:05,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,25/10/2016,13:00:00,25/10/2016,1/01/1900 19:00,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,18/10/2016,9:18:00,18/10/2016,1/01/1900 11:11,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Booking,25/10/2016,13:00:00,25/10/2016,1/01/1900 16:59,Requested,General Bed
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,9:23:00,18/10/2016,1/01/1900 9:24,Done,ED Trolley
+16,Emergency Department,77,16||19,8,,Move,18/10/2016,9:24:00,18/10/2016,1/01/1900 12:41,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,27/10/2016,15:28:00,27/10/2016,1/01/1900 17:15,Done,General Bed
+5,Day Surgery Area,93,5||1,5,,Move,14/11/2016,13:21:00,14/11/2016,1/01/1900 13:50,Done,General Bed
+5,Day Surgery Area,93,5||1,5,,Move,27/10/2016,14:46:00,27/10/2016,1/01/1900 16:28,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,9:35:00,18/10/2016,1/01/1900 9:56,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Move,27/10/2016,12:18:00,27/10/2016,1/01/1900 12:35,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,27/10/2016,16:13:00,27/10/2016,1/01/1900 17:40,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,10:02:00,18/10/2016,1/01/1900 11:18,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Move,24/10/2016,10:58:00,24/10/2016,1/01/1900 11:45,Done,General Bed
+5,Day Surgery Area,93,5||1,5,,Move,27/10/2016,13:32:00,27/10/2016,1/01/1900 14:24,Done,General Bed
+6,Dialysis Ward,55,6||9,1,,Move,18/10/2016,8:15:00,18/10/2016,1/01/1900 13:00,Done,Chair
+6,Dialysis Ward,55,6||11,1,,Move,18/10/2016,8:30:00,18/10/2016,1/01/1900 13:15,Done,Chair
+16,Emergency Department,84,16||33,8,,Move,18/10/2016,10:40:00,18/10/2016,1/01/1900 11:32,Done,ED Trolley
+6,Dialysis Ward,55,6||3,1,,Move,18/10/2016,8:00:00,18/10/2016,1/01/1900 13:28,Done,Chair
+6,Dialysis Ward,55,6||1,1,,Move,18/10/2016,7:45:00,18/10/2016,1/01/1900 13:27,Done,Chair
+9,W1 - Maternity Ward,15,9||37,2,28/06/2019,Move,29/11/2016,16:17:00,29/11/2016,1/01/1900 22:05,Done,Delivery Bed
+9,W1 - Maternity Ward,7,9||17,5,,Move,29/11/2016,22:05:00,12/01/2016,1/01/1900 18:40,Done,General Bed
+9,W1 - Maternity Ward,12,9||29,2,28/06/2019,Move,30/10/2016,13:22:00,31/10/2016,1/01/1900 5:37,Done,Delivery Bed
+9,W1 - Maternity Ward,2,9||5,5,,Move,31/10/2016,5:37:00,11/01/2016,1/01/1900 13:00,Done,General Bed
+9,W1 - Maternity Ward,14,9||35,2,28/06/2019,Move,11/04/2016,15:09:00,11/05/2016,1/01/1900 2:05,Done,Delivery Bed
+9,W1 - Maternity Ward,8,9||31,5,,Move,11/05/2016,2:05:00,11/07/2016,1/01/1900 12:11,Done,General Bed
+9,W1 - Maternity Ward,14,9||35,2,28/06/2019,Move,31/10/2016,12:00:00,31/10/2016,1/01/1900 19:33,Done,Delivery Bed
+9,W1 - Maternity Ward,8,9||31,5,,Booking,31/10/2016,19:27:00,31/10/2016,1/01/1900 19:33,Done,General Bed
+9,W1 - Maternity Ward,8,9||31,5,,Move,31/10/2016,19:33:00,11/01/2016,1/01/1900 17:00,Done,General Bed
+9,W1 - Maternity Ward,14,9||35,2,28/06/2019,Move,30/10/2016,17:45:00,30/10/2016,1/01/1900 21:16,Done,Delivery Bed
+9,W1 - Maternity Ward,7,9||17,5,,Move,30/10/2016,21:16:00,11/01/2016,1/01/1900 15:30,Done,General Bed
+16,Emergency Department,87,16||39,8,,Move,18/10/2016,10:30:00,18/10/2016,1/01/1900 12:59,Done,ED Trolley
+16,Emergency Department,84,16||33,8,,Move,18/10/2016,12:07:00,18/10/2016,1/01/1900 17:31,Done,ED Trolley
+16,Emergency Department,78,16||21,8,,Move,18/10/2016,10:15:00,18/10/2016,1/01/1900 23:36,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,18/10/2016,13:38:00,18/10/2016,1/01/1900 13:50,Done,ED Trolley
+16,Emergency Department,65,16||7,8,,Move,18/10/2016,13:50:00,18/10/2016,1/01/1900 15:42,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Move,25/10/2016,16:12:00,25/10/2016,1/01/1900 18:05,Done,General Bed
+16,Emergency Department,62,16||1,8,,Move,18/10/2016,10:41:00,18/10/2016,1/01/1900 15:11,Done,ED Trolley
+5,Day Surgery Area,93,5||9,5,,Booking,25/10/2016,13:00:00,25/10/2016,1/01/1900 18:00,Done,General Bed
+16,Emergency Department,65,16||7,8,,Move,18/10/2016,11:15:00,18/10/2016,1/01/1900 11:15,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,18/10/2016,11:15:00,18/10/2016,1/01/1900 11:16,Done,ED Trolley
+9,W1 - Maternity Ward,14,9||35,2,28/06/2019,Move,28/10/2016,10:07:00,29/10/2016,1/01/1900 9:24,Done,Delivery Bed
+9,W1 - Maternity Ward,3,9||7,5,,Move,29/10/2016,9:24:00,31/10/2016,1/01/1900 15:03,Done,General Bed
+16,Emergency Department,66,16||9,8,,Move,18/10/2016,12:15:00,18/10/2016,1/01/1900 12:46,Done,ED Trolley
+9,W1 - Maternity Ward,13,9||33,2,28/06/2019,Move,11/06/2016,18:00:00,11/07/2016,1/01/1900 1:00,Done,Delivery Bed
+9,W1 - Maternity Ward,1,9||1,5,,Move,11/07/2016,1:00:00,11/11/2016,1/01/1900 14:45,Done,General Bed
+9,W1 - Maternity Ward,5,9||11,5,,Booking,11/05/2016,10:29:00,11/04/2016,1/01/1900 22:35,Requested,General Bed
+9,W1 - Maternity Ward,12,9||29,2,28/06/2019,Move,11/04/2016,22:35:00,11/05/2016,1/01/1900 9:27,Done,Delivery Bed
+9,W1 - Maternity Ward,5,9||11,5,,Move,11/05/2016,9:27:00,11/05/2016,1/01/1900 10:30,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||61,5,5/11/2021,Move,28/10/2016,14:00:00,11/02/2016,1/01/1900 11:25,Done,General Bed
+9,W1 - Maternity Ward,13,9||33,2,28/06/2019,Move,29/10/2016,11:15:00,30/10/2016,1/01/1900 8:41,Done,Delivery Bed
+9,W1 - Maternity Ward,7,9||19,5,,Move,30/10/2016,8:41:00,11/02/2016,1/01/1900 20:00,Done,General Bed
+16,Emergency Department,75,16||15,8,,Move,18/10/2016,12:44:00,18/10/2016,1/01/1900 12:45,Done,ED Trolley
+16,Emergency Department,75,16||15,8,,Move,18/10/2016,12:45:00,18/10/2016,1/01/1900 22:56,Done,ED Trolley
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,11:44:00,18/10/2016,1/01/1900 15:36,Done,ED Trolley
+5,Day Surgery Area,93,5||11,5,,Booking,18/10/2016,13:00:00,18/10/2016,1/01/1900 17:05,Requested,General Bed
+4,Short Stay Unit,72,4||9,5,,Move,18/10/2016,11:40:00,18/10/2016,1/01/1900 12:36,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||49,5,5/11/2021,Move,18/10/2016,13:17:00,24/10/2016,1/01/1900 14:29,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,28/10/2016,10:21:00,28/10/2016,1/01/1900 11:00,Done,General Bed
+16,Emergency Department,66,16||9,8,,Move,18/10/2016,16:10:00,11/07/2016,1/01/1900 10:13,Rejected,ED Trolley
+16,Emergency Department,66,16||9,8,,Move,18/10/2016,16:17:00,11/07/2016,1/01/1900 10:13,Rejected,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,28/10/2016,12:01:00,28/10/2016,1/01/1900 12:50,Done,General Bed
+15,Special Care Nursery,10,15||1,7,,Move,18/10/2016,11:48:00,18/10/2016,1/01/1900 18:51,Done,Neonate Isolette
+5,Day Surgery Area,93,5||5,5,,Move,28/10/2016,12:56:00,28/10/2016,1/01/1900 13:18,Done,General Bed
+15,Special Care Nursery,10,15||3,7,,Move,18/10/2016,7:38:00,27/10/2016,1/01/1900 11:45,Done,Neonate Isolette
+16,Emergency Department,66,16||9,8,,Move,18/10/2016,12:50:00,18/10/2016,1/01/1900 12:55,Done,ED Trolley
+16,Emergency Department,87,16||39,8,,Move,18/10/2016,14:27:00,18/10/2016,1/01/1900 18:17,Done,ED Trolley
+16,Emergency Department,80,16||25,8,,Move,18/10/2016,13:18:00,19/10/2016,1/01/1900 11:22,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Booking,28/10/2016,13:00:00,28/10/2016,1/01/1900 15:20,Requested,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||55,5,5/11/2021,Move,18/10/2016,20:20:00,18/10/2016,1/01/1900 20:57,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||5,5,,Move,18/10/2016,20:57:00,19/10/2016,1/01/1900 16:15,Done,General Bed
+16,Emergency Department,87,16||39,8,,Move,18/10/2016,13:45:00,18/10/2016,1/01/1900 14:22,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,18/10/2016,14:32:00,18/10/2016,1/01/1900 14:34,Done,ED Trolley
+16,Emergency Department,67,16||11,8,,Move,18/10/2016,14:48:00,18/10/2016,1/01/1900 15:14,Done,ED Trolley
+16,Emergency Department,67,16||11,8,,Move,18/10/2016,15:31:00,18/10/2016,1/01/1900 16:17,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Move,28/10/2016,12:00:00,28/10/2016,1/01/1900 13:33,Done,General Bed
+5,Day Surgery Area,93,5||15,5,,Move,11/04/2016,12:35:00,11/04/2016,1/01/1900 15:00,Done,General Bed
+16,Emergency Department,77,16||19,8,,Move,18/10/2016,13:13:00,18/10/2016,1/01/1900 15:45,Done,ED Trolley
+8,Intensive Care Unit,60,8||9,6,,Move,18/10/2016,13:04:00,20/10/2016,1/01/1900 18:53,Done,Intensive Care Unit Bed
+11,W3 - Medical / Surgical Ward,40,11||7,5,5/11/2021,Move,20/10/2016,18:53:00,24/10/2016,1/01/1900 13:07,Done,General Bed
+4,Short Stay Unit,72,4||9,5,,Move,18/10/2016,12:42:00,18/10/2016,1/01/1900 13:39,Done,General Bed
+4,Short Stay Unit,74,4||13,5,,Move,18/10/2016,13:39:00,18/10/2016,1/01/1900 16:15,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Booking,28/10/2016,13:00:00,28/10/2016,1/01/1900 16:30,Requested,General Bed
+16,Emergency Department,83,16||31,8,,Move,18/10/2016,14:17:00,18/10/2016,1/01/1900 17:45,Done,ED Trolley
+5,Day Surgery Area,93,5||1,5,,Move,11/04/2016,13:40:00,11/04/2016,1/01/1900 14:15,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,11/11/2016,14:20:00,11/11/2016,1/01/1900 19:04,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||49,5,5/11/2021,Move,11/11/2016,19:45:00,11/12/2016,1/01/1900 16:01,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,16:47:00,18/10/2016,1/01/1900 19:51,Done,ED Trolley
+16,Emergency Department,81,16||27,8,,Move,18/10/2016,13:35:00,19/10/2016,1/01/1900 12:12,Done,ED Trolley
+4,Short Stay Unit,74,4||13,5,,Move,18/10/2016,13:18:00,18/10/2016,1/01/1900 13:19,Done,General Bed
+4,Short Stay Unit,74,4||13,5,,Move,18/10/2016,13:19:00,18/10/2016,1/01/1900 13:39,Done,General Bed
+4,Short Stay Unit,71,4||7,5,,Move,18/10/2016,13:39:00,20/10/2016,1/01/1900 14:59,Done,General Bed
+16,Emergency Department,64,16||5,8,,Move,18/10/2016,14:54:00,18/10/2016,1/01/1900 17:48,Done,ED Trolley
+16,Emergency Department,84,16||33,8,,Move,18/10/2016,17:48:00,19/10/2016,1/01/1900 6:10,Done,ED Trolley
+16,Emergency Department,78,16||21,8,,Move,19/10/2016,6:10:00,19/10/2016,1/01/1900 6:10,Done,ED Trolley
+16,Emergency Department,84,16||33,8,,Move,19/10/2016,6:10:00,19/10/2016,1/01/1900 10:21,Done,ED Trolley
+16,Emergency Department,68,16||13,8,,Move,18/10/2016,15:08:00,18/10/2016,1/01/1900 15:20,Done,ED Trolley
+16,Emergency Department,62,16||1,8,,Move,18/10/2016,15:20:00,18/10/2016,1/01/1900 18:05,Done,ED Trolley
+16,Emergency Department,79,16||23,8,,Move,18/10/2016,18:05:00,19/10/2016,1/01/1900 12:12,Done,ED Trolley
+16,Emergency Department,80,16||25,8,,Move,19/10/2016,12:12:00,19/10/2016,1/01/1900 12:35,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,23,10||21,5,,Move,18/10/2016,13:31:00,24/10/2016,1/01/1900 13:30,Done,General Bed
+16,Emergency Department,64,16||5,8,,Move,18/10/2016,18:32:00,18/10/2016,1/01/1900 18:45,Done,ED Trolley
+6,Dialysis Ward,55,6||17,1,,Move,18/10/2016,13:15:00,18/10/2016,1/01/1900 20:02,Done,Chair
+4,Short Stay Unit,70,4||5,5,,Move,18/10/2016,13:42:00,18/10/2016,1/01/1900 15:22,Done,General Bed
+4,Short Stay Unit,72,4||9,5,,Move,18/10/2016,15:22:00,18/10/2016,1/01/1900 15:32,Done,General Bed
+4,Short Stay Unit,70,4||5,5,,Move,18/10/2016,15:32:00,18/10/2016,1/01/1900 16:20,Done,General Bed
+4,Short Stay Unit,72,4||9,5,,Move,18/10/2016,16:20:00,19/10/2016,1/01/1900 21:09,Done,General Bed
+6,Dialysis Ward,55,6||5,1,,Move,18/10/2016,13:50:00,18/10/2016,1/01/1900 20:09,Done,Chair
+16,Emergency Department,85,16||35,8,,Move,18/10/2016,14:00:00,18/10/2016,1/01/1900 16:08,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,24/10/2016,14:42:00,24/10/2016,1/01/1900 15:40,Done,General Bed
+16,Emergency Department,76,16||17,8,,Move,18/10/2016,14:25:00,19/10/2016,1/01/1900 13:41,Done,ED Trolley
+11,W3 - Medical / Surgical Ward,42,11||27,5,5/11/2021,Move,18/10/2016,14:35:00,21/10/2016,1/01/1900 14:57,Rejected,General Bed
+11,W3 - Medical / Surgical Ward,42,11||27,5,5/11/2021,Move,18/10/2016,13:59:00,21/10/2016,1/01/1900 14:57,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,11/02/2016,16:19:00,11/02/2016,1/01/1900 16:54,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,25/10/2016,16:05:00,25/10/2016,1/01/1900 17:05,Done,General Bed
+5,Day Surgery Area,93,5||11,5,,Move,16/11/2016,15:30:00,16/11/2016,1/01/1900 16:43,Done,General Bed
+16,Emergency Department,65,16||7,8,,Move,18/10/2016,16:24:00,18/10/2016,1/01/1900 17:08,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,37,10||71,5,5/11/2021,Move,18/10/2016,14:38:00,24/10/2016,1/01/1900 15:45,Done,General Bed
+5,Day Surgery Area,93,5||5,5,,Move,11/03/2016,10:03:00,11/03/2016,1/01/1900 10:50,Done,General Bed
+5,Day Surgery Area,93,5||7,5,,Move,11/02/2016,17:28:00,11/02/2016,1/01/1900 17:28,Done,General Bed
+16,Emergency Department,85,16||35,8,,Move,18/10/2016,16:08:00,18/10/2016,1/01/1900 20:16,Done,ED Trolley
+5,Day Surgery Area,93,5||3,5,,Move,11/02/2016,15:00:00,11/02/2016,1/01/1900 18:28,Done,General Bed
+16,Emergency Department,64,16||5,8,,Move,18/10/2016,18:49:00,18/10/2016,1/01/1900 18:53,Done,ED Trolley
+5,Day Surgery Area,93,5||5,5,,Move,11/02/2016,16:04:00,11/02/2016,1/01/1900 18:28,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,18,10||5,5,,Move,11/02/2016,18:07:00,11/02/2016,1/01/1900 21:12,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,19,10||13,5,,Move,11/02/2016,21:12:00,11/04/2016,1/01/1900 10:13,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,22:45:00,19/10/2016,1/01/1900 1:08,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||63,5,5/11/2021,Move,20/10/2016,18:10:00,20/10/2016,1/01/1900 19:00,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,36,10||63,5,5/11/2021,Move,20/10/2016,19:00:00,21/10/2016,1/01/1900 11:00,Done,General Bed
+16,Emergency Department,86,16||37,8,,Move,18/10/2016,15:40:00,18/10/2016,1/01/1900 16:31,Done,ED Trolley
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||55,5,5/11/2021,Booking,11/03/2016,19:06:00,11/03/2016,1/01/1900 19:07,Done,General Bed
+10,W2 - Medical / Surgical / Paediatrics Ward,34,10||55,5,5/11/2021,Move,11/03/2016,19:07:00,11/04/2016,1/01/1900 12:28,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,11/03/2016,12:25:00,11/03/2016,1/01/1900 13:36,Done,General Bed
+16,Emergency Department,84,16||33,8,,Move,18/10/2016,17:39:00,18/10/2016,1/01/1900 17:42,Done,ED Trolley
+16,Emergency Department,64,16||5,8,,Move,18/10/2016,18:03:00,18/10/2016,1/01/1900 18:19,Done,ED Trolley
+9,W1 - Maternity Ward,15,9||37,2,28/06/2019,Move,26/10/2016,15:00:00,26/10/2016,1/01/1900 20:00,Done,Delivery Bed
+9,W1 - Maternity Ward,8,9||31,5,,Move,26/10/2016,20:00:00,31/10/2016,1/01/1900 12:20,Done,General Bed
+16,Emergency Department,77,16||19,8,,Move,18/10/2016,16:02:00,19/10/2016,1/01/1900 14:38,Done,ED Trolley
+5,Day Surgery Area,93,5||7,5,,Move,23/11/2016,9:39:00,23/11/2016,1/01/1900 10:02,Done,General Bed
+9,W1 - Maternity Ward,12,9||29,2,28/06/2019,Move,21/10/2016,16:39:00,22/10/2016,1/01/1900 12:57,Done,Delivery Bed
+9,W1 - Maternity Ward,7,9||19,5,,Move,22/10/2016,12:57:00,23/10/2016,1/01/1900 13:15,Done,General Bed
+4,Short Stay Unit,70,4||5,5,,Move,18/10/2016,16:21:00,18/10/2016,1/01/1900 18:50,Done,General Bed
+9,W1 - Maternity Ward,14,9||35,2,28/06/2019,Move,22/10/2016,15:00:00,23/10/2016,1/01/1900 23:19,Done,Delivery Bed
+9,W1 - Maternity Ward,5,9||11,5,,Move,23/10/2016,23:19:00,26/10/2016,1/01/1900 13:00,Done,General Bed
+5,Day Surgery Area,93,5||3,5,,Move,11/03/2016,11:42:00,11/03/2016,1/01/1900 12:55,Done,General Bed
+16,Emergency Department,65,16||7,8,,Move,18/10/2016,17:34:00,18/10/2016,1/01/1900 18:59,Done,ED Trolley
